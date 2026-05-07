@@ -20,8 +20,8 @@
     "palette": {
       "primary": {
         "name": "Navy Blue",
-        "hex": "#0b1d41",
-        "rgb": "11, 29, 65",
+        "hex": "#0d1d41",
+        "rgb": "13, 29, 65",
         "text_on": "#FFFFFF",
         "tones": [
           {
@@ -47,8 +47,8 @@
       },
       "secondary": {
         "name": "Teal",
-        "hex": "#55b6b2",
-        "rgb": "85, 182, 178",
+        "hex": "#56b6b2",
+        "rgb": "86, 182, 178",
         "text_on": "#FFFFFF",
         "tones": [
           {
@@ -67,17 +67,17 @@
             "name": "Teal Light",
             "hex": "#a8dedd",
             "rgb": "168, 222, 221",
-            "text_on": "#0b1d41"
+            "text_on": "#0d1d41"
           }
         ],
         "usage": "Secondary brand color — section headers, accents, icon fills, teal-background logo usage"
       },
       "accent": {
         "name": "Yellow",
-        "hex": "#F5B731",
-        "rgb": "245, 183, 49",
-        "text_on": "#0b1d41",
-        "note": "Used primarily as an accent color in text form, not large fills. The brand PDF has a typo listing this as #55b6b2; the correct yellow is approximately #F5B731.",
+        "hex": "#f4b334",
+        "rgb": "244, 179, 52",
+        "text_on": "#0d1d41",
+        "note": "Used primarily as an accent color in text form, not large fills.",
         "tones": [
           {
             "name": "Yellow Dark",
@@ -89,10 +89,31 @@
             "name": "Yellow Light",
             "hex": "#fad06e",
             "rgb": "250, 208, 110",
-            "text_on": "#0b1d41"
+            "text_on": "#0d1d41"
           }
         ],
         "usage": "Accent color — mostly used in text (headings, callouts), sparingly as a fill. Never use as a dominant background."
+      },
+      "orange": {
+        "name": "Orange",
+        "hex": "#da5e14",
+        "rgb": "218, 94, 20",
+        "text_on": "#FFFFFF",
+        "usage": "Extended palette color found in the color H mark. Use sparingly for warmth and visual variety in campaign contexts."
+      },
+      "olive": {
+        "name": "Olive",
+        "hex": "#77843c",
+        "rgb": "119, 132, 60",
+        "text_on": "#FFFFFF",
+        "usage": "Extended palette color found in the color H mark. Use sparingly for earthy contrast in campaign graphics."
+      },
+      "cream": {
+        "name": "Cream",
+        "hex": "#f2dab2",
+        "rgb": "242, 218, 178",
+        "text_on": "#0d1d41",
+        "usage": "Extended palette color found in the navy-background wordmark and color H mark. Use for warm, soft backgrounds or text on dark backgrounds."
       },
       "neutral": {
         "name": "Dark Gray",
@@ -107,8 +128,8 @@
         "name": "Vision Gradient",
         "description": "Teal-to-yellow gradient used for special campaign and vision-series contexts.",
         "stops": [
-          { "color": "#55b6b2", "position": "0%" },
-          { "color": "#F5B731", "position": "100%" }
+          { "color": "#56b6b2", "position": "0%" },
+          { "color": "#f4b334", "position": "100%" }
         ],
         "direction": "135deg",
         "usage": "Use intentionally for campaign graphics, sermon series, and high-impact moments. Not for everyday UI."
@@ -175,14 +196,23 @@
           {
             "variant": "light",
             "format": "svg",
-            "background": "teal",
+            "background": "dark",
+            "note": "White H mark — use on navy, teal, or photo overlay backgrounds",
             "file": "logos/logo-mark/hf-logo-mark-light.svg"
           },
           {
             "variant": "dark",
             "format": "svg",
-            "background": "navy",
+            "background": "light",
+            "note": "Black H mark — use on white or light backgrounds",
             "file": "logos/logo-mark/hf-logo-mark-dark.svg"
+          },
+          {
+            "variant": "color",
+            "format": "svg",
+            "background": "navy",
+            "note": "Full color H mark on navy background — preferred for social avatars and profile images",
+            "file": "logos/logo-mark/hf-logo-mark-color.svg"
           },
           {
             "variant": "light",
@@ -236,13 +266,22 @@
             "variant": "dark",
             "format": "svg",
             "background": "white or light",
+            "note": "Black wordmark — use on white or light backgrounds",
             "file": "logos/wordmark/hf-wordmark-dark.svg"
           },
           {
             "variant": "light",
             "format": "svg",
             "background": "navy, teal, or photo overlay",
+            "note": "White wordmark — use on dark or colored backgrounds",
             "file": "logos/wordmark/hf-wordmark-light.svg"
+          },
+          {
+            "variant": "navy-bg",
+            "format": "svg",
+            "background": "self-contained",
+            "note": "Wordmark with navy rectangle background (#0D1D41) and cream text (#F2DAB2). Self-contained — safe to drop anywhere.",
+            "file": "logos/wordmark/hf-wordmark-navy-bg.svg"
           },
           {
             "variant": "dark",
@@ -321,41 +360,32 @@
       {
         "type": "avatar",
         "description": "Square or circular H mark for use as organization avatars, profile images, and directory listings.",
-        "usage_rules": "Use the teal-background version as default. Use navy-background on light surfaces where teal conflicts. Maintain circular crop where the platform requires it.",
+        "usage_rules": "Use the full-color version as the default avatar. Maintain circular crop where the platform requires it.",
         "assets": [
           {
-            "variant": "teal-bg",
+            "variant": "color",
             "format": "svg",
-            "file": "logos/avatar/hf-avatar-teal.svg"
+            "background": "navy",
+            "note": "Full color H mark on navy background — preferred for all social media profile photos and directory avatars",
+            "file": "logos/avatar/hf-avatar-color.svg"
           },
           {
-            "variant": "navy-bg",
-            "format": "svg",
-            "file": "logos/avatar/hf-avatar-navy.svg"
-          },
-          {
-            "variant": "teal-bg",
+            "variant": "color",
             "format": "png",
             "size": 256,
-            "file": "logos/avatar/hf-avatar-teal-256.png"
+            "file": "logos/avatar/hf-avatar-color-256.png"
           },
           {
-            "variant": "teal-bg",
+            "variant": "color",
             "format": "png",
             "size": 512,
-            "file": "logos/avatar/hf-avatar-teal-512.png"
+            "file": "logos/avatar/hf-avatar-color-512.png"
           },
           {
-            "variant": "navy-bg",
+            "variant": "color",
             "format": "png",
-            "size": 256,
-            "file": "logos/avatar/hf-avatar-navy-256.png"
-          },
-          {
-            "variant": "navy-bg",
-            "format": "png",
-            "size": 512,
-            "file": "logos/avatar/hf-avatar-navy-512.png"
+            "size": 1024,
+            "file": "logos/avatar/hf-avatar-color-1024.png"
           }
         ]
       }
@@ -414,7 +444,7 @@
         {
           "order": 2,
           "type": "color_overlay",
-          "color": "#0b1d41",
+          "color": "#0d1d41",
           "opacity": "60%",
           "blend_mode": "Multiply"
         }
@@ -424,15 +454,15 @@
     "vision_gradient": {
       "description": "The Vision Gradient (teal → yellow) is used for special campaign and sermon series contexts. Use intentionally — not as a default background.",
       "stops": [
-        { "color": "#55b6b2", "position": "0%" },
-        { "color": "#F5B731", "position": "100%" }
+        { "color": "#56b6b2", "position": "0%" },
+        { "color": "#f4b334", "position": "100%" }
       ]
     }
   },
   "rules": [
     "This brand-kit.json is the single source of truth for Highlands Fellowship's brand assets and guidelines. AI agents must load and strictly follow these paths, colors, and rules.",
     "All typography must use Roboto Slab (Google Fonts) — Roboto Slab Medium (500) is the default weight.",
-    "Navy Blue (#0b1d41) and Teal (#55b6b2) are the primary brand colors. Yellow (#F5B731) is an accent, used sparingly.",
+    "Navy Blue (#0d1d41) and Teal (#56b6b2) are the primary brand colors. Yellow (#f4b334) is an accent, used sparingly. Orange (#da5e14), Olive (#77843c), and Cream (#f2dab2) are extended palette colors for campaign contexts.",
     "Always use the white/light logo variant on dark or colored backgrounds. Always use the dark/navy logo variant on white or light backgrounds.",
     "The Vision Gradient (teal to yellow) is reserved for high-impact campaign and sermon series graphics — not for everyday communications.",
     "Time formatting: 6pm not 6:00 PM. Date formatting: Thursday, Dec. 25 not Thursday, December 25th.",

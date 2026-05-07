@@ -11,14 +11,17 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --navy: #0b1d41;
+      --navy: #0d1d41;
       --navy-mid: #132850;
       --navy-light: #1e3d78;
-      --teal: #55b6b2;
+      --teal: #56b6b2;
       --teal-dark: #3d9490;
       --teal-light: #a8dedd;
-      --yellow: #F5B731;
+      --yellow: #f4b334;
       --yellow-dark: #d49a1a;
+      --orange: #da5e14;
+      --olive: #77843c;
+      --cream: #f2dab2;
       --gray-dark: #3d3d3d;
       --gray-mid: #8A8A8A;
       --gray-light: #E3E3E3;
@@ -217,7 +220,7 @@
 
     /* GRADIENT SWATCH */
     .gradient-swatch .swatch-block {
-      background: linear-gradient(135deg, #55b6b2 0%, #F5B731 100%);
+      background: linear-gradient(135deg, #56b6b2 0%, #f4b334 100%);
     }
 
     /* LOGOS */
@@ -444,7 +447,7 @@
   <!-- HEADER -->
   <header>
     <div class="logo-area">
-      <img src="logos/avatar/hf-avatar-teal.svg" alt="Highlands Fellowship H mark" />
+      <img src="logos/avatar/hf-avatar-color.svg" alt="Highlands Fellowship H mark" />
       <div>
         <div style="font-size:18px;font-weight:700;color:#fff;line-height:1.1;">Highlands Fellowship</div>
         <div style="font-size:11px;font-weight:300;color:#a8dedd;letter-spacing:0.06em;">Brand Kit</div>
@@ -479,30 +482,30 @@
     <section>
       <div class="section-label">Brand Colors</div>
       <div class="section-title">Color System</div>
-      <div class="section-desc">Navy Blue and Teal are our primary brand colors. Yellow is an accent used in text and callouts — never a dominant fill. Dark Gray is standard body copy.</div>
+      <div class="section-desc">Navy Blue and Teal are our primary brand colors. Yellow is an accent used in text and callouts — never a dominant fill. Orange, Olive, and Cream are extended palette colors for campaign contexts.</div>
 
       <div class="color-grid">
         <div class="color-swatch">
-          <div class="swatch-block" style="background:#0b1d41;"></div>
+          <div class="swatch-block" style="background:#0d1d41;"></div>
           <div class="swatch-info">
             <div class="swatch-name">Navy Blue</div>
-            <div class="swatch-hex">#0b1d41</div>
+            <div class="swatch-hex">#0d1d41</div>
             <div class="swatch-usage">Primary — headers, backgrounds, overlays</div>
           </div>
         </div>
         <div class="color-swatch">
-          <div class="swatch-block" style="background:#55b6b2;"></div>
+          <div class="swatch-block" style="background:#56b6b2;"></div>
           <div class="swatch-info">
             <div class="swatch-name">Teal</div>
-            <div class="swatch-hex">#55b6b2</div>
+            <div class="swatch-hex">#56b6b2</div>
             <div class="swatch-usage">Secondary — accents, section headers, icon fills</div>
           </div>
         </div>
         <div class="color-swatch">
-          <div class="swatch-block" style="background:#F5B731;"></div>
+          <div class="swatch-block" style="background:#f4b334;"></div>
           <div class="swatch-info">
             <div class="swatch-name">Yellow</div>
-            <div class="swatch-hex">#F5B731</div>
+            <div class="swatch-hex">#f4b334</div>
             <div class="swatch-usage">Accent — text callouts only, used sparingly</div>
           </div>
         </div>
@@ -510,8 +513,32 @@
           <div class="swatch-block"></div>
           <div class="swatch-info">
             <div class="swatch-name">Vision Gradient</div>
-            <div class="swatch-hex">#55b6b2 → #F5B731</div>
+            <div class="swatch-hex">#56b6b2 → #f4b334</div>
             <div class="swatch-usage">Campaign &amp; sermon series only</div>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="swatch-block" style="background:#da5e14;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Orange</div>
+            <div class="swatch-hex">#da5e14</div>
+            <div class="swatch-usage">Extended palette — campaign graphics</div>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="swatch-block" style="background:#77843c;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Olive</div>
+            <div class="swatch-hex">#77843c</div>
+            <div class="swatch-usage">Extended palette — campaign graphics</div>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="swatch-block" style="background:#f2dab2;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Cream</div>
+            <div class="swatch-hex">#f2dab2</div>
+            <div class="swatch-usage">Warm text on dark backgrounds</div>
           </div>
         </div>
         <div class="color-swatch">
@@ -537,7 +564,7 @@
         <div style="font-size:12px;font-weight:500;color:var(--teal-dark);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Navy Tones</div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;">
           <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#091629;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#091629</div>
-          <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#0b1d41;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#0b1d41</div>
+          <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#0d1d41;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#0d1d41</div>
           <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#132850;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#132850</div>
           <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#1e3d78;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#1e3d78</div>
         </div>
@@ -546,9 +573,9 @@
         <div style="font-size:12px;font-weight:500;color:var(--teal-dark);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:12px;">Teal Tones</div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;">
           <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#3d9490;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#3d9490</div>
-          <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#55b6b2;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#55b6b2</div>
+          <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#56b6b2;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#56b6b2</div>
           <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#6dc5c1;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-family:monospace;">#6dc5c1</div>
-          <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#a8dedd;display:flex;align-items:center;justify-content:center;color:#0b1d41;font-size:11px;font-family:monospace;">#a8dedd</div>
+          <div style="flex:1;min-width:100px;height:48px;border-radius:6px;background:#a8dedd;display:flex;align-items:center;justify-content:center;color:#0d1d41;font-size:11px;font-family:monospace;">#a8dedd</div>
         </div>
       </div>
     </section>
@@ -561,12 +588,22 @@
 
       <div class="logo-grid">
         <div class="logo-card">
+          <div class="logo-preview on-navy">
+            <img src="logos/logo-mark/hf-logo-mark-color.svg" alt="H Mark Color" style="height:100px;width:100px;" />
+          </div>
+          <div class="logo-info">
+            <div class="logo-name">H Mark — Color</div>
+            <div class="logo-desc">Full color mark on navy — primary for social profiles &amp; avatars</div>
+            <div class="logo-path">logos/logo-mark/hf-logo-mark-color.svg</div>
+          </div>
+        </div>
+        <div class="logo-card">
           <div class="logo-preview on-teal">
             <img src="logos/logo-mark/hf-logo-mark-light.svg" alt="H Mark Light" />
           </div>
           <div class="logo-info">
             <div class="logo-name">H Mark — Light</div>
-            <div class="logo-desc">On teal or navy backgrounds</div>
+            <div class="logo-desc">White mark on teal or navy backgrounds</div>
             <div class="logo-path">logos/logo-mark/hf-logo-mark-light.svg</div>
           </div>
         </div>
@@ -576,7 +613,7 @@
           </div>
           <div class="logo-info">
             <div class="logo-name">H Mark — Dark</div>
-            <div class="logo-desc">On white or light backgrounds</div>
+            <div class="logo-desc">Black mark on white or light backgrounds</div>
             <div class="logo-path">logos/logo-mark/hf-logo-mark-dark.svg</div>
           </div>
         </div>
@@ -602,6 +639,16 @@
         </div>
         <div class="logo-card">
           <div class="logo-preview on-light" style="border-bottom:1px solid var(--gray-light);">
+            <img src="logos/wordmark/hf-wordmark-navy-bg.svg" alt="Wordmark Navy Background" />
+          </div>
+          <div class="logo-info">
+            <div class="logo-name">Wordmark — Navy BG</div>
+            <div class="logo-desc">Self-contained navy background — drop anywhere</div>
+            <div class="logo-path">logos/wordmark/hf-wordmark-navy-bg.svg</div>
+          </div>
+        </div>
+        <div class="logo-card">
+          <div class="logo-preview on-light" style="border-bottom:1px solid var(--gray-light);">
             <img src="logos/combination-mark/hf-combination-mark-dark.svg" alt="Combination Mark Dark" />
           </div>
           <div class="logo-info">
@@ -622,22 +669,12 @@
         </div>
         <div class="logo-card">
           <div class="logo-preview on-light" style="border-bottom:1px solid var(--gray-light);">
-            <img src="logos/avatar/hf-avatar-teal.svg" alt="Avatar Teal" style="height:80px;width:80px;border-radius:12px;" />
+            <img src="logos/avatar/hf-avatar-color.svg" alt="Avatar Color" style="height:80px;width:80px;border-radius:12px;" />
           </div>
           <div class="logo-info">
-            <div class="logo-name">Avatar — Teal</div>
-            <div class="logo-desc">Default org avatar for profiles &amp; directories</div>
-            <div class="logo-path">logos/avatar/hf-avatar-teal.svg</div>
-          </div>
-        </div>
-        <div class="logo-card">
-          <div class="logo-preview on-light" style="border-bottom:1px solid var(--gray-light);">
-            <img src="logos/avatar/hf-avatar-navy.svg" alt="Avatar Navy" style="height:80px;width:80px;border-radius:12px;" />
-          </div>
-          <div class="logo-info">
-            <div class="logo-name">Avatar — Navy</div>
-            <div class="logo-desc">For surfaces where teal conflicts</div>
-            <div class="logo-path">logos/avatar/hf-avatar-navy.svg</div>
+            <div class="logo-name">Avatar — Color</div>
+            <div class="logo-desc">Default org avatar for social profiles &amp; directories</div>
+            <div class="logo-path">logos/avatar/hf-avatar-color.svg</div>
           </div>
         </div>
       </div>
@@ -647,7 +684,7 @@
         <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
           <li style="font-size:13px;color:var(--teal-light);padding-left:16px;position:relative;line-height:1.5;"><span style="position:absolute;left:0;color:var(--teal);">→</span> The circular H mark is primary for compact contexts — social profiles, signage, merch, app icons.</li>
           <li style="font-size:13px;color:var(--teal-light);padding-left:16px;position:relative;line-height:1.5;"><span style="position:absolute;left:0;color:var(--teal);">→</span> Use the light (white) logo on dark backgrounds. Use the dark (navy) logo on light backgrounds.</li>
-          <li style="font-size:13px;color:var(--teal-light);padding-left:16px;position:relative;line-height:1.5;"><span style="position:absolute;left:0;color:var(--teal);">→</span> Approved backgrounds: white, Navy <code style="background:#132850;color:var(--teal);padding:1px 4px;border-radius:3px;font-size:11px;">#0b1d41</code>, Teal <code style="background:#132850;color:var(--teal);padding:1px 4px;border-radius:3px;font-size:11px;">#55b6b2</code>, and photo overlays.</li>
+          <li style="font-size:13px;color:var(--teal-light);padding-left:16px;position:relative;line-height:1.5;"><span style="position:absolute;left:0;color:var(--teal);">→</span> Approved backgrounds: white, Navy <code style="background:#132850;color:var(--teal);padding:1px 4px;border-radius:3px;font-size:11px;">#0d1d41</code>, Teal <code style="background:#132850;color:var(--teal);padding:1px 4px;border-radius:3px;font-size:11px;">#56b6b2</code>, and photo overlays.</li>
           <li style="font-size:13px;color:var(--teal-light);padding-left:16px;position:relative;line-height:1.5;"><span style="position:absolute;left:0;color:var(--teal);">→</span> Do not stretch, recolor, add effects, or distort any logo.</li>
         </ul>
       </div>
@@ -663,12 +700,12 @@
         <div class="type-sample">
           <div class="sample-label">Large Heading — 30pt / Roboto Slab Medium</div>
           <div class="type-heading-xl">Hi there!</div>
-          <div class="type-meta">font-family: Roboto Slab · font-weight: 500 · font-size: 30pt · color: #F5B731</div>
+          <div class="type-meta">font-family: Roboto Slab · font-weight: 500 · font-size: 30pt · color: #f4b334</div>
         </div>
         <div class="type-sample">
           <div class="sample-label">Sub-Heading — 18pt / Roboto Slab Medium</div>
           <div class="type-heading-lg">Know God. Find Community. Make a Difference.</div>
-          <div class="type-meta">font-family: Roboto Slab · font-weight: 500 · font-size: 18pt · color: #0b1d41</div>
+          <div class="type-meta">font-family: Roboto Slab · font-weight: 500 · font-size: 18pt · color: #0d1d41</div>
         </div>
         <div class="type-sample">
           <div class="sample-label">Body Copy — 12pt / 16pt leading / Roboto Slab Medium</div>
@@ -747,7 +784,7 @@
       <div class="rules-list">
         <div class="rule-item"><code>brand-kit.json</code> is the single source of truth. AI agents must load and strictly follow these paths, colors, and rules.</div>
         <div class="rule-item">All typography must use Roboto Slab (Google Fonts) — Roboto Slab Medium (<code>weight 500</code>) is the default weight.</div>
-        <div class="rule-item">Navy Blue (<code>#0b1d41</code>) and Teal (<code>#55b6b2</code>) are the primary brand colors. Yellow (<code>#F5B731</code>) is an accent — used sparingly, primarily in text.</div>
+        <div class="rule-item">Navy Blue (<code>#0d1d41</code>) and Teal (<code>#56b6b2</code>) are the primary brand colors. Yellow (<code>#f4b334</code>) is an accent — used sparingly, primarily in text. Orange (<code>#da5e14</code>), Olive (<code>#77843c</code>), and Cream (<code>#f2dab2</code>) are extended palette colors for campaign contexts.</div>
         <div class="rule-item">Always use the white/light logo variant on dark or colored backgrounds. Always use the dark/navy logo variant on white or light backgrounds.</div>
         <div class="rule-item">The Vision Gradient (teal → yellow) is reserved for campaign and sermon series graphics — not everyday communications.</div>
         <div class="rule-item">Time formatting: <code>6pm</code> not <code>6:00 PM</code>. Date formatting: <code>Thursday, Dec. 25</code> not <code>Thursday, December 25th</code>.</div>

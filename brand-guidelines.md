@@ -54,20 +54,27 @@ These rules keep our communications consistent across teams and channels.
 
 ## Colors
 
-### Primary: Navy Blue `#0b1d41`
+### Primary: Navy Blue `#0d1d41`
 Our primary brand color. Use for headers, hero backgrounds, primary buttons, and dark overlays on photos and videos.
 
-### Secondary: Teal `#55b6b2`
+### Secondary: Teal `#56b6b2`
 Our secondary brand color. Use for section accents, icon fills, and teal-background logo placements.
 
-### Accent: Yellow `#F5B731`
+### Accent: Yellow `#f4b334`
 Used primarily in text form — headings, callouts, section titles. Use sparingly as a fill. Never the dominant background color in everyday communications.
 
 ### Neutral: Dark Gray `#3d3d3d`
 Standard body copy color on white backgrounds. Black (`#000000`) is also acceptable for body text.
 
+### Extended Palette
+These colors appear in the color H mark and branded assets. Use intentionally in campaign contexts — not for everyday communications.
+
+- **Orange** `#da5e14` — warmth and visual energy
+- **Olive** `#77843c` — earthy contrast
+- **Cream** `#f2dab2` — warm text on dark backgrounds (e.g. the navy-background wordmark)
+
 ### Vision Gradient
-A teal-to-yellow gradient reserved for high-impact campaign graphics and sermon series artwork. Not for everyday communications.
+A teal (`#56b6b2`) → yellow (`#f4b334`) gradient reserved for high-impact campaign graphics and sermon series artwork. Not for everyday communications.
 
 ---
 
@@ -101,8 +108,8 @@ The H mark + wordmark together, for contexts where maximum brand recognition is 
 ### Approved Backgrounds
 Logos may be placed on:
 - White or near-white surfaces (use dark/navy logo)
-- Navy Blue `#0b1d41` (use white/light logo)
-- Teal `#55b6b2` (use white/light logo)
+- Navy Blue `#0d1d41` (use white/light logo)
+- Teal `#56b6b2` (use white/light logo)
 - Photos with a navy overlay applied (use white/light logo)
 
 Avoid busy, patterned, or unapproved background colors.
@@ -127,7 +134,7 @@ Maintain clear space equal to the height of the H mark on all sides of any logo.
 When using photography as a background in graphic applications, apply a navy blue overlay for brand consistency and text legibility:
 
 1. Desaturate the image to 0% saturation
-2. Apply a Navy Blue (`#0b1d41`) color overlay at 40–70% opacity using Multiply blend mode
+2. Apply a Navy Blue (`#0d1d41`) color overlay at 40–70% opacity using Multiply blend mode
 3. Ensure white text remains clearly legible over the treated image
 
 Adjust opacity based on the contrast of the source photo.
