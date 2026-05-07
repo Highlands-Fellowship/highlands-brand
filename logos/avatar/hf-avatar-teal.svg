@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Avatar: white H on teal background square -->
+  <rect width="200" height="200" rx="16" fill="#55b6b2"/>
+  <g fill="#FFFFFF">
+    <rect x="56" y="52" width="20" height="96" rx="4"/>
+    <rect x="124" y="52" width="20" height="96" rx="4"/>
+    <rect x="56" y="90" width="88" height="20" rx="4"/>
+  </g>
+</svg>

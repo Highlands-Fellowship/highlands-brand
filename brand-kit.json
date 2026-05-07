@@ -1,0 +1,441 @@
+{
+  "version": "2025.01",
+  "base_url": "https://branding.hf.church",
+  "brand": {
+    "name": "Highlands Fellowship",
+    "short_name": "HF",
+    "tagline": "Know God. Find Community. Make a Difference.",
+    "website": "https://hf.church"
+  },
+  "locations": [
+    {
+      "type": "primary",
+      "name": "Highlands Fellowship",
+      "city": "Abingdon",
+      "state": "VA",
+      "country": "US"
+    }
+  ],
+  "color_system": {
+    "palette": {
+      "primary": {
+        "name": "Navy Blue",
+        "hex": "#0b1d41",
+        "rgb": "11, 29, 65",
+        "text_on": "#FFFFFF",
+        "tones": [
+          {
+            "name": "Navy Dark",
+            "hex": "#091629",
+            "rgb": "9, 22, 41",
+            "text_on": "#FFFFFF"
+          },
+          {
+            "name": "Navy Mid",
+            "hex": "#132850",
+            "rgb": "19, 40, 80",
+            "text_on": "#FFFFFF"
+          },
+          {
+            "name": "Navy Light",
+            "hex": "#1e3d78",
+            "rgb": "30, 61, 120",
+            "text_on": "#FFFFFF"
+          }
+        ],
+        "usage": "Main brand color — headers, hero backgrounds, primary buttons, dark overlays on photos and videos"
+      },
+      "secondary": {
+        "name": "Teal",
+        "hex": "#55b6b2",
+        "rgb": "85, 182, 178",
+        "text_on": "#FFFFFF",
+        "tones": [
+          {
+            "name": "Teal Dark",
+            "hex": "#3d9490",
+            "rgb": "61, 148, 144",
+            "text_on": "#FFFFFF"
+          },
+          {
+            "name": "Teal Mid",
+            "hex": "#6dc5c1",
+            "rgb": "109, 197, 193",
+            "text_on": "#FFFFFF"
+          },
+          {
+            "name": "Teal Light",
+            "hex": "#a8dedd",
+            "rgb": "168, 222, 221",
+            "text_on": "#0b1d41"
+          }
+        ],
+        "usage": "Secondary brand color — section headers, accents, icon fills, teal-background logo usage"
+      },
+      "accent": {
+        "name": "Yellow",
+        "hex": "#F5B731",
+        "rgb": "245, 183, 49",
+        "text_on": "#0b1d41",
+        "note": "Used primarily as an accent color in text form, not large fills. The brand PDF has a typo listing this as #55b6b2; the correct yellow is approximately #F5B731.",
+        "tones": [
+          {
+            "name": "Yellow Dark",
+            "hex": "#d49a1a",
+            "rgb": "212, 154, 26",
+            "text_on": "#FFFFFF"
+          },
+          {
+            "name": "Yellow Light",
+            "hex": "#fad06e",
+            "rgb": "250, 208, 110",
+            "text_on": "#0b1d41"
+          }
+        ],
+        "usage": "Accent color — mostly used in text (headings, callouts), sparingly as a fill. Never use as a dominant background."
+      },
+      "neutral": {
+        "name": "Dark Gray",
+        "hex": "#3d3d3d",
+        "rgb": "61, 61, 61",
+        "text_on": "#FFFFFF",
+        "usage": "Body copy color on white backgrounds. Black (#000000) is also acceptable for body text."
+      }
+    },
+    "gradients": {
+      "vision": {
+        "name": "Vision Gradient",
+        "description": "Teal-to-yellow gradient used for special campaign and vision-series contexts.",
+        "stops": [
+          { "color": "#55b6b2", "position": "0%" },
+          { "color": "#F5B731", "position": "100%" }
+        ],
+        "direction": "135deg",
+        "usage": "Use intentionally for campaign graphics, sermon series, and high-impact moments. Not for everyday UI."
+      }
+    },
+    "interface": {
+      "description": "A neutral scale for UI surfaces and borders.",
+      "white": "#FFFFFF",
+      "off_white": "#FAFAFA",
+      "light_gray": "#E3E3E3",
+      "mid_gray": "#8A8A8A",
+      "dark_gray": "#3d3d3d",
+      "near_black": "#1A1A1A"
+    }
+  },
+  "typography": {
+    "primary": {
+      "family": "Roboto Slab",
+      "default_weight": 500,
+      "source": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Roboto+Slab",
+      "weights": {
+        "400": "Regular",
+        "500": "Medium",
+        "700": "Bold"
+      },
+      "note": "Roboto Slab Medium (500) is the primary typeface for all Highlands Fellowship communications — headings, body copy, and UI elements.",
+      "usage": {
+        "heading_large": "30pt / Roboto Slab Medium",
+        "heading_body": "18pt / Roboto Slab Medium",
+        "body": "12pt / Roboto Slab Medium / 16pt leading",
+        "body_color": "#3d3d3d or #000000 on white backgrounds"
+      }
+    }
+  },
+  "radius": {
+    "none": {
+      "value": "0px",
+      "usage": "Hard-edged elements — tables, image containers"
+    },
+    "sm": {
+      "value": "4px",
+      "usage": "Small UI elements — badges, tags, input fields"
+    },
+    "md": {
+      "value": "8px",
+      "usage": "Default — cards, buttons, modals"
+    },
+    "lg": {
+      "value": "16px",
+      "usage": "Larger containers — feature cards, callout boxes"
+    },
+    "full": {
+      "value": "9999px",
+      "usage": "Pills, circular avatar frames"
+    }
+  },
+  "logos": {
+    "lockups": [
+      {
+        "type": "logo_mark",
+        "description": "Primary icon mark — the circular 'H' monogram. Used on social media profiles, metal signage, merch, and anywhere a compact brand identifier is needed.",
+        "assets": [
+          {
+            "variant": "light",
+            "format": "svg",
+            "background": "teal",
+            "file": "logos/logo-mark/hf-logo-mark-light.svg"
+          },
+          {
+            "variant": "dark",
+            "format": "svg",
+            "background": "navy",
+            "file": "logos/logo-mark/hf-logo-mark-dark.svg"
+          },
+          {
+            "variant": "light",
+            "format": "png",
+            "background": "transparent",
+            "size": 256,
+            "file": "logos/logo-mark/hf-logo-mark-light-256.png"
+          },
+          {
+            "variant": "light",
+            "format": "png",
+            "background": "transparent",
+            "size": 512,
+            "file": "logos/logo-mark/hf-logo-mark-light-512.png"
+          },
+          {
+            "variant": "light",
+            "format": "png",
+            "background": "transparent",
+            "size": 1024,
+            "file": "logos/logo-mark/hf-logo-mark-light-1024.png"
+          },
+          {
+            "variant": "dark",
+            "format": "png",
+            "background": "transparent",
+            "size": 256,
+            "file": "logos/logo-mark/hf-logo-mark-dark-256.png"
+          },
+          {
+            "variant": "dark",
+            "format": "png",
+            "background": "transparent",
+            "size": 512,
+            "file": "logos/logo-mark/hf-logo-mark-dark-512.png"
+          },
+          {
+            "variant": "dark",
+            "format": "png",
+            "background": "transparent",
+            "size": 1024,
+            "file": "logos/logo-mark/hf-logo-mark-dark-1024.png"
+          }
+        ]
+      },
+      {
+        "type": "wordmark",
+        "description": "Script wordmark — 'Highlands FELLOWSHIP' in the brand script. Secondary logo used on the homepage, printed materials, and anywhere full name context is needed.",
+        "assets": [
+          {
+            "variant": "dark",
+            "format": "svg",
+            "background": "white or light",
+            "file": "logos/wordmark/hf-wordmark-dark.svg"
+          },
+          {
+            "variant": "light",
+            "format": "svg",
+            "background": "navy, teal, or photo overlay",
+            "file": "logos/wordmark/hf-wordmark-light.svg"
+          },
+          {
+            "variant": "dark",
+            "format": "png",
+            "background": "transparent",
+            "size": 256,
+            "file": "logos/wordmark/hf-wordmark-dark-256.png"
+          },
+          {
+            "variant": "dark",
+            "format": "png",
+            "background": "transparent",
+            "size": 512,
+            "file": "logos/wordmark/hf-wordmark-dark-512.png"
+          },
+          {
+            "variant": "dark",
+            "format": "png",
+            "background": "transparent",
+            "size": 1024,
+            "file": "logos/wordmark/hf-wordmark-dark-1024.png"
+          },
+          {
+            "variant": "light",
+            "format": "png",
+            "background": "transparent",
+            "size": 256,
+            "file": "logos/wordmark/hf-wordmark-light-256.png"
+          },
+          {
+            "variant": "light",
+            "format": "png",
+            "background": "transparent",
+            "size": 512,
+            "file": "logos/wordmark/hf-wordmark-light-512.png"
+          },
+          {
+            "variant": "light",
+            "format": "png",
+            "background": "transparent",
+            "size": 1024,
+            "file": "logos/wordmark/hf-wordmark-light-1024.png"
+          }
+        ]
+      },
+      {
+        "type": "combination_mark",
+        "description": "H mark + wordmark together. Use when maximum brand recognition is needed and space allows.",
+        "assets": [
+          {
+            "variant": "dark",
+            "format": "svg",
+            "file": "logos/combination-mark/hf-combination-mark-dark.svg"
+          },
+          {
+            "variant": "light",
+            "format": "svg",
+            "file": "logos/combination-mark/hf-combination-mark-light.svg"
+          },
+          {
+            "variant": "dark",
+            "format": "png",
+            "background": "transparent",
+            "size": 512,
+            "file": "logos/combination-mark/hf-combination-mark-dark-512.png"
+          },
+          {
+            "variant": "light",
+            "format": "png",
+            "background": "transparent",
+            "size": 512,
+            "file": "logos/combination-mark/hf-combination-mark-light-512.png"
+          }
+        ]
+      },
+      {
+        "type": "avatar",
+        "description": "Square or circular H mark for use as organization avatars, profile images, and directory listings.",
+        "usage_rules": "Use the teal-background version as default. Use navy-background on light surfaces where teal conflicts. Maintain circular crop where the platform requires it.",
+        "assets": [
+          {
+            "variant": "teal-bg",
+            "format": "svg",
+            "file": "logos/avatar/hf-avatar-teal.svg"
+          },
+          {
+            "variant": "navy-bg",
+            "format": "svg",
+            "file": "logos/avatar/hf-avatar-navy.svg"
+          },
+          {
+            "variant": "teal-bg",
+            "format": "png",
+            "size": 256,
+            "file": "logos/avatar/hf-avatar-teal-256.png"
+          },
+          {
+            "variant": "teal-bg",
+            "format": "png",
+            "size": 512,
+            "file": "logos/avatar/hf-avatar-teal-512.png"
+          },
+          {
+            "variant": "navy-bg",
+            "format": "png",
+            "size": 256,
+            "file": "logos/avatar/hf-avatar-navy-256.png"
+          },
+          {
+            "variant": "navy-bg",
+            "format": "png",
+            "size": 512,
+            "file": "logos/avatar/hf-avatar-navy-512.png"
+          }
+        ]
+      }
+    ],
+    "rules": [
+      "The circular H mark is the primary logo for compact contexts — social profiles, signage, merch, app icons.",
+      "The script wordmark (Highlands Fellowship) is secondary — use on the homepage, print collateral, and anywhere the full name provides needed context.",
+      "Always use the white/light logo version on dark backgrounds (navy, teal, or photo overlays).",
+      "Always use the dark/navy logo version on white or light backgrounds.",
+      "Teal and navy blue are the approved logo background colors. Avoid busy, patterned, or unapproved backgrounds.",
+      "Do not stretch, recolor, add effects, or distort any logo.",
+      "Maintain clear space equal to the height of the H mark on all sides of any logo usage.",
+      "Prefer SVG files for all vector work and programmatic generation; use PNGs for raster or quick placement needs."
+    ]
+  },
+  "voice": {
+    "summary": "Warm, welcoming, and clear. Highlands Fellowship communicates like a trusted friend — approachable but purposeful, community-driven but spiritually grounded. Avoid stiff religious formality and cold institutional language.",
+    "tone": [
+      "warm",
+      "welcoming",
+      "community-focused",
+      "clear",
+      "encouraging",
+      "authentic"
+    ],
+    "writing_conventions": {
+      "times": "Use 6pm not 6:00 PM",
+      "dates": "Use Thursday, Dec. 25 not Thursday, December 25th",
+      "oxford_comma": "Optional — skip for aesthetics when it reads naturally. Stay consistent within a single document.",
+      "symbols": "The plus (+) sign may be used in place of 'and' when it fits visually (e.g. in graphics or social posts).",
+      "numbers": "Spell out one through nine; use numerals for 10 and above."
+    },
+    "avoid": [
+      "stiff religious formality",
+      "cold institutional tone",
+      "excessive jargon",
+      "overly formal date/time formats"
+    ],
+    "example_phrases": [
+      "Know God. Find Community. Make a Difference.",
+      "We're glad you're here.",
+      "Everyone belongs.",
+      "Join us this Sunday."
+    ]
+  },
+  "brand_elements": {
+    "image_treatment": {
+      "description": "When using photography as a background in graphic applications, apply a navy blue overlay to maintain brand consistency and ensure text legibility.",
+      "layers": [
+        {
+          "order": 1,
+          "type": "image",
+          "adjustment": "desaturate",
+          "saturation": "0%"
+        },
+        {
+          "order": 2,
+          "type": "color_overlay",
+          "color": "#0b1d41",
+          "opacity": "60%",
+          "blend_mode": "Multiply"
+        }
+      ],
+      "note": "Adjust overlay opacity (40–70%) based on photo contrast. Always ensure white text remains legible."
+    },
+    "vision_gradient": {
+      "description": "The Vision Gradient (teal → yellow) is used for special campaign and sermon series contexts. Use intentionally — not as a default background.",
+      "stops": [
+        { "color": "#55b6b2", "position": "0%" },
+        { "color": "#F5B731", "position": "100%" }
+      ]
+    }
+  },
+  "rules": [
+    "This brand-kit.json is the single source of truth for Highlands Fellowship's brand assets and guidelines. AI agents must load and strictly follow these paths, colors, and rules.",
+    "All typography must use Roboto Slab (Google Fonts) — Roboto Slab Medium (500) is the default weight.",
+    "Navy Blue (#0b1d41) and Teal (#55b6b2) are the primary brand colors. Yellow (#F5B731) is an accent, used sparingly.",
+    "Always use the white/light logo variant on dark or colored backgrounds. Always use the dark/navy logo variant on white or light backgrounds.",
+    "The Vision Gradient (teal to yellow) is reserved for high-impact campaign and sermon series graphics — not for everyday communications.",
+    "Time formatting: 6pm not 6:00 PM. Date formatting: Thursday, Dec. 25 not Thursday, December 25th.",
+    "When in doubt about tone, ask: does this sound like a trusted, welcoming friend from the congregation?"
+  ]
+}

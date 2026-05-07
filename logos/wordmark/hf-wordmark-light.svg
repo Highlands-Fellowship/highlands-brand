@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100">
+  <!-- Light wordmark: white text on transparent — for dark backgrounds -->
+  <text x="240" y="52" font-family="Georgia, serif" font-size="42" font-weight="700"
+        font-style="italic" text-anchor="middle" fill="#FFFFFF" letter-spacing="1">Highlands</text>
+  <text x="240" y="80" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700"
+        text-anchor="middle" fill="#FFFFFF" letter-spacing="8">FELLOWSHIP</text>
+</svg>
