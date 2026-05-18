@@ -99,21 +99,42 @@
         "hex": "#da5e14",
         "rgb": "218, 94, 20",
         "text_on": "#FFFFFF",
-        "usage": "Extended palette color found in the color H mark. Use sparingly for warmth and visual variety in campaign contexts."
+        "usage": "Extended palette — use sparingly for warmth and visual variety in campaign contexts."
       },
       "olive": {
         "name": "Olive",
         "hex": "#77843c",
         "rgb": "119, 132, 60",
         "text_on": "#FFFFFF",
-        "usage": "Extended palette color found in the color H mark. Use sparingly for earthy contrast in campaign graphics."
+        "usage": "Extended palette — use sparingly for earthy contrast in campaign graphics."
       },
       "cream": {
         "name": "Cream",
         "hex": "#f2dab2",
         "rgb": "242, 218, 178",
         "text_on": "#0d1d41",
-        "usage": "Extended palette color found in the navy-background wordmark and color H mark. Use for warm, soft backgrounds or text on dark backgrounds."
+        "usage": "Extended palette — warm text on dark backgrounds (e.g. the navy-background wordmark)."
+      },
+      "light_green": {
+        "name": "Light Green",
+        "hex": "#aac27f",
+        "rgb": "170, 194, 127",
+        "text_on": "#0d1d41",
+        "usage": "Extended palette — fresh, hopeful accent for campaign and seasonal graphics."
+      },
+      "bright_orange": {
+        "name": "Bright Orange",
+        "hex": "#f58c29",
+        "rgb": "245, 140, 41",
+        "text_on": "#FFFFFF",
+        "usage": "Extended palette — high-energy accent for event promotions and call-to-action contexts."
+      },
+      "sunset_red": {
+        "name": "HFS Sunset Red",
+        "hex": "#e74e40",
+        "rgb": "231, 78, 64",
+        "text_on": "#FFFFFF",
+        "usage": "Extended palette — bold, warm accent for high-impact campaign graphics and seasonal series."
       },
       "neutral": {
         "name": "Dark Gray",
@@ -194,25 +215,46 @@
         "description": "Primary icon mark — the circular 'H' monogram. Used on social media profiles, metal signage, merch, and anywhere a compact brand identifier is needed.",
         "assets": [
           {
+            "variant": "primary",
+            "format": "svg",
+            "background": "teal",
+            "note": "White H mark on teal background — the primary, preferred mark for all contexts including social avatars and profile images",
+            "file": "logos/logo-mark/hf-logo-mark-primary.svg"
+          },
+          {
             "variant": "light",
             "format": "svg",
             "background": "dark",
-            "note": "White H mark — use on navy, teal, or photo overlay backgrounds",
+            "note": "White H mark on transparent — use on navy, teal, or photo overlay backgrounds",
             "file": "logos/logo-mark/hf-logo-mark-light.svg"
           },
           {
             "variant": "dark",
             "format": "svg",
             "background": "light",
-            "note": "Black H mark — use on white or light backgrounds",
+            "note": "Black H mark on transparent — use on white or light backgrounds",
             "file": "logos/logo-mark/hf-logo-mark-dark.svg"
           },
           {
-            "variant": "color",
-            "format": "svg",
-            "background": "navy",
-            "note": "Full color H mark on navy background — preferred for social avatars and profile images",
-            "file": "logos/logo-mark/hf-logo-mark-color.svg"
+            "variant": "primary",
+            "format": "png",
+            "background": "teal",
+            "size": 256,
+            "file": "logos/logo-mark/hf-logo-mark-primary-256.png"
+          },
+          {
+            "variant": "primary",
+            "format": "png",
+            "background": "teal",
+            "size": 512,
+            "file": "logos/logo-mark/hf-logo-mark-primary-512.png"
+          },
+          {
+            "variant": "primary",
+            "format": "png",
+            "background": "teal",
+            "size": 1024,
+            "file": "logos/logo-mark/hf-logo-mark-primary-1024.png"
           },
           {
             "variant": "light",
@@ -229,13 +271,6 @@
             "file": "logos/logo-mark/hf-logo-mark-light-512.png"
           },
           {
-            "variant": "light",
-            "format": "png",
-            "background": "transparent",
-            "size": 1024,
-            "file": "logos/logo-mark/hf-logo-mark-light-1024.png"
-          },
-          {
             "variant": "dark",
             "format": "png",
             "background": "transparent",
@@ -248,13 +283,6 @@
             "background": "transparent",
             "size": 512,
             "file": "logos/logo-mark/hf-logo-mark-dark-512.png"
-          },
-          {
-            "variant": "dark",
-            "format": "png",
-            "background": "transparent",
-            "size": 1024,
-            "file": "logos/logo-mark/hf-logo-mark-dark-1024.png"
           }
         ]
       },
@@ -328,88 +356,296 @@
         ]
       },
       {
-        "type": "combination_mark",
-        "description": "H mark + wordmark together. Use when maximum brand recognition is needed and space allows.",
-        "assets": [
-          {
-            "variant": "dark",
-            "format": "svg",
-            "file": "logos/combination-mark/hf-combination-mark-dark.svg"
-          },
-          {
-            "variant": "light",
-            "format": "svg",
-            "file": "logos/combination-mark/hf-combination-mark-light.svg"
-          },
-          {
-            "variant": "dark",
-            "format": "png",
-            "background": "transparent",
-            "size": 512,
-            "file": "logos/combination-mark/hf-combination-mark-dark-512.png"
-          },
-          {
-            "variant": "light",
-            "format": "png",
-            "background": "transparent",
-            "size": 512,
-            "file": "logos/combination-mark/hf-combination-mark-light-512.png"
-          }
-        ]
-      },
-      {
         "type": "avatar",
         "description": "Square or circular H mark for use as organization avatars, profile images, and directory listings.",
-        "usage_rules": "Use the full-color version as the default avatar. Maintain circular crop where the platform requires it.",
+        "usage_rules": "Use the teal-background version as the default avatar. Maintain circular crop where the platform requires it.",
         "assets": [
           {
-            "variant": "color",
+            "variant": "teal-bg",
             "format": "svg",
-            "background": "navy",
-            "note": "Full color H mark on navy background — preferred for all social media profile photos and directory avatars",
-            "file": "logos/avatar/hf-avatar-color.svg"
+            "background": "teal",
+            "note": "White H mark on teal background — preferred for all social media profile photos and directory avatars",
+            "file": "logos/avatar/hf-avatar-teal.svg"
           },
           {
-            "variant": "color",
+            "variant": "teal-bg",
             "format": "png",
             "size": 256,
-            "file": "logos/avatar/hf-avatar-color-256.png"
+            "file": "logos/avatar/hf-avatar-teal-256.png"
           },
           {
-            "variant": "color",
+            "variant": "teal-bg",
             "format": "png",
             "size": 512,
-            "file": "logos/avatar/hf-avatar-color-512.png"
+            "file": "logos/avatar/hf-avatar-teal-512.png"
           },
           {
-            "variant": "color",
+            "variant": "teal-bg",
             "format": "png",
             "size": 1024,
-            "file": "logos/avatar/hf-avatar-color-1024.png"
+            "file": "logos/avatar/hf-avatar-teal-1024.png"
           }
         ]
       }
     ],
     "rules": [
-      "The circular H mark is the primary logo for compact contexts — social profiles, signage, merch, app icons.",
+      "The primary logo is the white H mark on a teal background (hf-logo-mark-primary.svg). Use this as the default mark for social profiles, signage, merch, and app icons.",
       "The script wordmark (Highlands Fellowship) is secondary — use on the homepage, print collateral, and anywhere the full name provides needed context.",
-      "Always use the white/light logo version on dark backgrounds (navy, teal, or photo overlays).",
-      "Always use the dark/navy logo version on white or light backgrounds.",
-      "Teal and navy blue are the approved logo background colors. Avoid busy, patterned, or unapproved backgrounds.",
+      "Use the white/light H mark (transparent background) on navy or photo overlay backgrounds.",
+      "Use the dark H mark (transparent background) on white or light backgrounds.",
+      "The teal-background H mark is the standard avatar for all social media profiles and directory listings.",
       "Do not stretch, recolor, add effects, or distort any logo.",
       "Maintain clear space equal to the height of the H mark on all sides of any logo usage.",
       "Prefer SVG files for all vector work and programmatic generation; use PNGs for raster or quick placement needs."
     ]
   },
   "voice": {
-    "summary": "Warm, welcoming, and clear. Highlands Fellowship communicates like a trusted friend — approachable but purposeful, community-driven but spiritually grounded. Avoid stiff religious formality and cold institutional language.",
-    "tone": [
+    "mission": "To Help People Experience Life with Jesus",
+    "vision": "Make Disciples. Love Our Communities. Change the World.",
+    "summary": "Highlands Fellowship communicates with warmth, authenticity, and practical hope — helping everyday people experience life with Jesus, grow in community, find healing, and take their next step together. We are rooted in the culture and values of Southwest Virginia and Northeast Tennessee: warm, relational, grounded, hard-working, family-oriented, and community-focused. We speak like real people talking to real people.",
+    "who_we_are": "Highlands Fellowship is a welcoming church family helping everyday people experience life with Jesus through authentic community, practical faith, encouragement, healing, and purpose. We believe church should feel like home.",
+    "personality": [
       "warm",
       "welcoming",
-      "community-focused",
-      "clear",
+      "genuine",
+      "hope-filled",
       "encouraging",
-      "authentic"
+      "relational",
+      "down to earth",
+      "spiritually grounded",
+      "practical",
+      "family-oriented",
+      "community-centered",
+      "reflective of Southwest Virginia culture",
+      "friendly to people unfamiliar with church",
+      "supportive during difficult seasons",
+      "mission-minded without feeling corporate"
+    ],
+    "voice_characteristics": {
+      "conversational": "not preachy",
+      "encouraging": "not condemning",
+      "practical": "not overly theological",
+      "thoughtful": "not overly intellectual",
+      "invitational": "not pressure-driven",
+      "motivational": "not manipulative",
+      "authentic": "not polished",
+      "emotionally_warm": "not trendy or performative"
+    },
+    "avoid": [
+      "overly churchy language",
+      "theological jargon",
+      "insider terminology",
+      "corporate buzzwords",
+      "hype-driven communication",
+      "guilt-driven giving language",
+      "harsh or condemning tones",
+      "overly polished or trendy phrasing",
+      "sounding performative or production-focused"
+    ],
+    "communicate": [
+      "hope",
+      "encouragement",
+      "grace",
+      "next steps",
+      "healing",
+      "purpose",
+      "community",
+      "transformation through Jesus"
+    ],
+    "messaging_themes": {
+      "home": {
+        "description": "One of the strongest emotional themes at Highlands. Church should feel like home.",
+        "emotional_tone": ["safe", "welcoming", "warm", "authentic", "grace-filled", "relational", "supportive"],
+        "core_phrases": [
+          "Welcome Home",
+          "Highlands Is Home",
+          "Welcome to Highlands",
+          "We're glad you're here",
+          "Come as you are",
+          "There's a place for you here",
+          "Join the family",
+          "Church family",
+          "Walk with us",
+          "We saved you a seat"
+        ]
+      },
+      "community": {
+        "description": "We believe life is better connected. We are created for relationships and designed to do life together.",
+        "emotional_tone": ["relational", "encouraging", "warm"],
+        "core_phrases": [
+          "Doing life together",
+          "Get connected",
+          "Find your people",
+          "Find your fit",
+          "Life is better connected",
+          "We're better together",
+          "Don't do life alone",
+          "Walk alongside each other",
+          "Grow together",
+          "Celebrate life together",
+          "Support each other through every season"
+        ]
+      },
+      "journey": {
+        "description": "The Highlands voice naturally reflects the outdoorsy, grounded culture of our region. Faith is a journey with Jesus — practical, not overly complicated. Never cheesy or overly themed.",
+        "emotional_tone": ["grounded", "hopeful", "practical", "encouraging", "relational"],
+        "core_phrases": [
+          "Take your next step",
+          "The Path",
+          "The Journey",
+          "Trailhead",
+          "Keep growing",
+          "Follow Jesus one step at a time",
+          "Stay rooted",
+          "Grow deeper",
+          "Walk alongside others",
+          "Moving forward in faith",
+          "Find direction",
+          "Take root. Grow daily."
+        ]
+      },
+      "life_with_jesus": {
+        "description": "Everything points back to Jesus. Not religion. Not performance. Not perfection. Relationship with Jesus changes lives.",
+        "emotional_tone": ["hopeful", "sincere", "practical", "grounded", "encouraging"],
+        "core_phrases": [
+          "Experience life with Jesus",
+          "Jesus changes everything",
+          "Real hope is found in Jesus",
+          "Follow Jesus",
+          "Hear His voice",
+          "Be shaped by His Word",
+          "Faith for everyday life",
+          "Walk with Jesus daily",
+          "God is still moving",
+          "God changes lives"
+        ]
+      },
+      "transformation": {
+        "description": "We believe God changes lives. As people grow in relationship with Jesus, they become catalysts of change and love in the communities around them.",
+        "core_phrases": [
+          "God changes lives",
+          "Encouraged and equipped",
+          "Grow spiritually",
+          "Be transformed by the Gospel",
+          "Keep growing",
+          "Take your next step",
+          "Become a catalyst of change and love",
+          "Real life change",
+          "Practical faith for everyday life"
+        ]
+      },
+      "care_and_healing": {
+        "description": "Highlands cares deeply for people walking through pain, struggle, crisis, and difficult seasons. We communicate support, healing, grace, and hope.",
+        "emotional_tone": ["compassionate", "calm", "sincere", "grace-filled", "non-judgmental", "emotionally honest"],
+        "core_phrases": [
+          "We're here for you",
+          "You don't have to walk through this alone",
+          "Healing is possible",
+          "Freedom is possible",
+          "Safe place",
+          "Support system",
+          "Hope and healing",
+          "Grace for every season",
+          "Prayer changes us and our circumstances",
+          "Let's pray together"
+        ]
+      },
+      "generosity": {
+        "description": "We communicate generosity through impact and mission — never pressure or obligation. Never guilt-driven.",
+        "emotional_tone": ["grateful", "celebratory", "hopeful", "mission-minded", "invitational"],
+        "core_phrases": [
+          "Your generosity changes lives",
+          "Thank you for making a difference",
+          "Because of your generosity…",
+          "Invest in what God is doing",
+          "Together, we are changing lives",
+          "Make a difference",
+          "Generosity changes communities",
+          "We are generous because God has been generous to us"
+        ]
+      },
+      "difference_makers": {
+        "description": "Serving is presented as purpose, impact, and growth.",
+        "core_phrases": [
+          "Difference Maker",
+          "You were made for more",
+          "Make a difference",
+          "Find your fit",
+          "Use your gifts",
+          "Serve others",
+          "Be part of life change",
+          "Every role matters",
+          "Every person matters"
+        ]
+      },
+      "next_gen": {
+        "description": "Highlands deeply values families, students, children, leadership development, and future generations.",
+        "emotional_tone": ["hopeful", "family-oriented", "future-focused", "encouraging", "leadership-minded"],
+        "core_phrases": [
+          "Next Gen",
+          "Invest in the next generation",
+          "Raise up leaders",
+          "Develop leaders",
+          "Helping kids and students follow Jesus",
+          "Students today. Leaders tomorrow.",
+          "Build the future",
+          "Empower the next generation"
+        ],
+        "hfkidz": {
+          "tagline": "Connecting Kids to Christ",
+          "tone": ["fun", "safe", "energetic", "trustworthy", "family-focused"]
+        }
+      },
+      "global_outreach": {
+        "description": "Highlands is locally rooted but globally minded.",
+        "emotional_tone": ["hopeful", "humble", "mission-minded", "empowering", "Kingdom-focused"],
+        "core_phrases": [
+          "A Heart for the World",
+          "Global Outreach",
+          "Encourage, train, and equip",
+          "Reach the nations",
+          "Reaching the unreached",
+          "Local and global impact",
+          "Sharing the hope of Jesus",
+          "Living on mission",
+          "Love our communities. Change the world."
+        ]
+      }
+    },
+    "common_language": {
+      "greetings": ["Hi there!", "Welcome Home", "Welcome to Highlands", "We're glad you're here"],
+      "invitations": ["Come as you are", "Join us this Sunday", "Invite a friend. Bring your family.", "We can't wait to see you!", "Let us know you're here. It's how we serve you best."],
+      "growth": ["Take your next step", "Keep growing", "Take root. Grow daily."],
+      "community": ["Doing life together", "Find your people", "Get connected"],
+      "encouragement": ["Jesus changes everything", "Real hope for real life", "God is still moving"]
+    },
+    "writing_style": {
+      "characteristics": [
+        "conversational",
+        "warm",
+        "practical",
+        "clear",
+        "encouraging",
+        "easy to understand",
+        "emotionally grounded",
+        "relational",
+        "action-oriented"
+      ],
+      "formatting": [
+        "short paragraphs",
+        "clean spacing",
+        "occasional bold emphasis",
+        "readable and scannable",
+        "simple punctuation",
+        "natural rhythm"
+      ]
+    },
+    "communication_formula": [
+      { "step": 1, "name": "Warm Welcome", "examples": ["Hi there!", "Welcome Home."] },
+      { "step": 2, "name": "Real-Life Connection", "description": "Acknowledge real life struggles, questions, family, purpose, and growth." },
+      { "step": 3, "name": "Jesus-Centered Hope", "description": "Everything points back to Jesus and transformation through Him." },
+      { "step": 4, "name": "Invitation Into Community", "description": "Groups, serving, prayer, outreach, care, next steps." },
+      { "step": 5, "name": "Practical Movement Forward", "examples": ["Take your next step.", "Get connected.", "Serve others.", "Grow deeper.", "Make a difference."] }
     ],
     "writing_conventions": {
       "times": "Use 6pm not 6:00 PM",
@@ -418,17 +654,17 @@
       "symbols": "The plus (+) sign may be used in place of 'and' when it fits visually (e.g. in graphics or social posts).",
       "numbers": "Spell out one through nine; use numerals for 10 and above."
     },
-    "avoid": [
-      "stiff religious formality",
-      "cold institutional tone",
-      "excessive jargon",
-      "overly formal date/time formats"
-    ],
     "example_phrases": [
-      "Know God. Find Community. Make a Difference.",
+      "Welcome Home.",
       "We're glad you're here.",
-      "Everyone belongs.",
-      "Join us this Sunday."
+      "Come as you are.",
+      "Take your next step.",
+      "Life is better connected.",
+      "Jesus changes everything.",
+      "Know God. Find Community. Make a Difference.",
+      "Real hope for real life.",
+      "God is still moving.",
+      "You don't have to walk through this alone."
     ]
   },
   "brand_elements": {
@@ -462,8 +698,8 @@
   "rules": [
     "This brand-kit.json is the single source of truth for Highlands Fellowship's brand assets and guidelines. AI agents must load and strictly follow these paths, colors, and rules.",
     "All typography must use Roboto Slab (Google Fonts) — Roboto Slab Medium (500) is the default weight.",
-    "Navy Blue (#0d1d41) and Teal (#56b6b2) are the primary brand colors. Yellow (#f4b334) is an accent, used sparingly. Orange (#da5e14), Olive (#77843c), and Cream (#f2dab2) are extended palette colors for campaign contexts.",
-    "Always use the white/light logo variant on dark or colored backgrounds. Always use the dark/navy logo variant on white or light backgrounds.",
+    "Navy Blue (#0d1d41) and Teal (#56b6b2) are the primary brand colors. Yellow (#f4b334) is an accent, used sparingly. The extended palette (Orange #da5e14, Olive #77843c, Cream #f2dab2, Light Green #aac27f, Bright Orange #f58c29, HFS Sunset Red #e74e40) is reserved for campaign and series contexts.",
+    "The primary logo mark is the white H on teal background (hf-logo-mark-primary.svg). Use the light (white) variant on dark backgrounds; use the dark variant on white or light backgrounds.",
     "The Vision Gradient (teal to yellow) is reserved for high-impact campaign and sermon series graphics — not for everyday communications.",
     "Time formatting: 6pm not 6:00 PM. Date formatting: Thursday, Dec. 25 not Thursday, December 25th.",
     "When in doubt about tone, ask: does this sound like a trusted, welcoming friend from the congregation?"

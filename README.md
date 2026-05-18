@@ -32,12 +32,15 @@ This repository is the single source of truth for Highlands Fellowship's brand a
 
   "color_system": {
     "palette": {
-      "primary":   // Navy Blue (#0d1d41) — main brand color, 3 tones, RGB, text_on
-      "secondary": // Teal (#56b6b2) — accents, icon fills, logo backgrounds, 3 tones
-      "accent":    // Yellow (#f4b334) — accent text and callouts, used sparingly
-      "orange":    // Orange (#da5e14) — extended palette, campaign graphics
-      "olive":     // Olive (#77843c) — extended palette, campaign graphics
-      "cream":     // Cream (#f2dab2) — warm text on dark backgrounds
+      "primary":      // Navy Blue (#0d1d41) — main brand color, 3 tones, RGB, text_on
+      "secondary":    // Teal (#56b6b2) — accents, icon fills, logo backgrounds, 3 tones
+      "accent":       // Yellow (#f4b334) — accent text and callouts, used sparingly
+      "orange":       // Orange (#da5e14) — extended palette, campaign graphics
+      "olive":        // Olive (#77843c) — extended palette, campaign graphics
+      "cream":        // Cream (#f2dab2) — warm text on dark backgrounds
+      "light_green":  // Light Green (#aac27f) — extended palette, seasonal graphics
+      "bright_orange":// Bright Orange (#f58c29) — extended palette, events & CTAs
+      "sunset_red":   // HFS Sunset Red (#e74e40) — extended palette, high-impact series
       "neutral":   // Dark Gray (#3d3d3d) — body copy color
     },
     "gradients": {
@@ -104,7 +107,8 @@ Key facts for quick reference:
 - **Primary color:** Navy Blue `#0d1d41`
 - **Secondary color:** Teal `#56b6b2`
 - **Accent color:** Yellow `#f4b334` (text/callout use only — sparingly)
-- **Extended palette:** Orange `#da5e14`, Olive `#77843c`, Cream `#f2dab2` (campaign contexts)
+- **Extended palette:** Orange `#da5e14`, Olive `#77843c`, Cream `#f2dab2`, Light Green `#aac27f`, Bright Orange `#f58c29`, HFS Sunset Red `#e74e40` (campaign/series contexts)
+- **Primary logo mark:** White H on teal background (`logos/logo-mark/hf-logo-mark-primary.svg`)
 - **Typeface:** Roboto Slab Medium (Google Fonts)
 - **Tagline:** Know God. Find Community. Make a Difference.
 - **Website:** https://hf.church

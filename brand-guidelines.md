@@ -2,41 +2,127 @@
 
 ## Who We Are
 
-Highlands Fellowship is a church in Abingdon, Virginia, built around a simple mission: **Know God. Find Community. Make a Difference.**
+**Mission:** To Help People Experience Life with Jesus
 
-Our brand reflects who we are as a congregation — warm, welcoming, and authentic. We communicate like a trusted friend: approachable without being shallow, spiritually grounded without being stiff. Every touchpoint, from a Sunday bulletin to a social media post, should feel like it belongs to the same family.
+**Vision:** Make Disciples. Love Our Communities. Change the World.
+
+Highlands Fellowship is a welcoming church family helping everyday people experience life with Jesus through authentic community, practical faith, encouragement, healing, and purpose. We are rooted in the culture and values of Southwest Virginia and Northeast Tennessee — warm, relational, grounded, hard-working, family-oriented, and community-focused.
+
+We believe church should feel like home.
 
 ---
 
 ## Voice & Tone
 
-### We Sound Like
+### The Highlands Voice
 
-- A welcoming neighbor who's genuinely glad you're here
-- Clear and direct — we say what we mean without burying the point
-- Encouraging and hope-filled
-- Human, not institutional
+We speak like real people talking to real people. Every communication should feel warm, practical, and grounded — not polished for performance.
 
-### We Don't Sound Like
+The Highlands voice is:
 
-- A formal religious organization issuing pronouncements
-- A corporate entity hiding behind passive voice
-- Overly casual or flippant about serious matters
-- Trendy for the sake of being trendy
+- **Conversational**, not preachy
+- **Encouraging**, not condemning
+- **Practical**, not overly theological
+- **Thoughtful**, not overly intellectual
+- **Invitational**, not pressure-driven
+- **Motivational**, not manipulative
+- **Authentic**, not polished
+- **Emotionally warm**, not trendy or performative
 
-### Tone Descriptors
+### Brand Personality
 
-**Warm** — People should feel invited, not evaluated.
-**Welcoming** — Every communication assumes the reader might be brand new.
-**Clear** — Simple language over impressive language.
-**Encouraging** — We point toward hope and possibility.
-**Authentic** — Real stories, real people, real faith.
+Highlands should feel: warm, welcoming, genuine, hope-filled, encouraging, relational, down to earth, spiritually grounded, practical, family-oriented, community-centered, and friendly to people unfamiliar with church. We are mission-minded without feeling corporate.
+
+### What We Communicate
+
+Hope, encouragement, grace, next steps, healing, purpose, community, and transformation through Jesus.
+
+### What We Avoid
+
+- Overly churchy language or theological jargon
+- Insider terminology
+- Corporate buzzwords
+- Hype-driven or guilt-driven communication
+- Harsh or condemning tones
+- Sounding performative or production-focused
+
+---
+
+## Core Messaging Themes
+
+### Home
+One of our strongest emotional themes. Church should feel like home — safe, welcoming, warm, authentic, grace-filled, relational, and supportive.
+
+**Core phrases:** Welcome Home · Highlands Is Home · We're glad you're here · Come as you are · There's a place for you here · Join the family · We saved you a seat
+
+### Community
+We are created for relationships and designed to do life together. Life is better connected.
+
+**Core phrases:** Doing life together · Get connected · Find your people · Find your fit · Life is better connected · We're better together · Don't do life alone · Walk alongside each other
+
+### Journey
+The Highlands voice reflects the outdoorsy, grounded culture of our region. Faith is a journey with Jesus — practical and hopeful, never cheesy or overly themed.
+
+**Core phrases:** Take your next step · The Path · The Journey · Trailhead · Keep growing · Stay rooted · Grow deeper · Walk alongside others · Take root. Grow daily.
+
+### Life With Jesus
+Everything points back to Jesus. Not religion. Not performance. Not perfection. Relationship with Jesus changes lives.
+
+**Core phrases:** Experience life with Jesus · Jesus changes everything · Real hope is found in Jesus · Faith for everyday life · Walk with Jesus daily · God is still moving
+
+### Transformation
+We believe God changes lives. As people grow in relationship with Jesus, they become catalysts of change and love in their communities.
+
+**Core phrases:** God changes lives · Encouraged and equipped · Be transformed by the Gospel · Real life change · Practical faith for everyday life · Become a catalyst of change and love
+
+### Care + Healing
+Highlands cares deeply for people in pain, struggle, or difficult seasons. We communicate support, healing, grace, and hope — always compassionate, non-judgmental, and emotionally honest.
+
+**Core phrases:** We're here for you · You don't have to walk through this alone · Healing is possible · Freedom is possible · Safe place · Hope and healing · Grace for every season
+
+### Generosity
+Generosity is communicated through impact and mission — never pressure or obligation. Never guilt-driven.
+
+**Core phrases:** Your generosity changes lives · Thank you for making a difference · Invest in what God is doing · Together, we are changing lives · We are generous because God has been generous to us
+
+### Difference Makers + Serving
+Serving is purpose, impact, and growth.
+
+**Core phrases:** Difference Maker · You were made for more · Find your fit · Use your gifts · Be part of life change · Every role matters · Every person matters
+
+### Next Gen
+Highlands deeply values families, students, children, leadership development, and future generations. HFKidz tagline: **Connecting Kids to Christ**.
+
+**Core phrases:** Next Gen · Invest in the next generation · Helping kids and students follow Jesus · Students today. Leaders tomorrow. · Empower the next generation
+
+### Global Outreach
+Locally rooted, globally minded.
+
+**Core phrases:** A Heart for the World · Reach the nations · Reaching the unreached · Local and global impact · Sharing the hope of Jesus · Living on mission · Love our communities. Change the world.
+
+---
+
+## Communication Formula
+
+Most Highlands communications follow this emotional arc:
+
+1. **Warm Welcome** — "Hi there!" / "Welcome Home."
+2. **Real-Life Connection** — Acknowledge struggles, questions, family, purpose, and growth.
+3. **Jesus-Centered Hope** — Everything points back to Jesus and transformation through Him.
+4. **Invitation Into Community** — Groups, serving, prayer, outreach, care, next steps.
+5. **Practical Movement Forward** — Take your next step. Get connected. Serve others. Grow deeper. Make a difference.
+
+---
+
+## Writing Style
+
+Highlands writing should be conversational, warm, practical, clear, encouraging, easy to understand, emotionally grounded, relational, and action-oriented.
+
+**Formatting:** Short paragraphs, clean spacing, occasional bold emphasis, simple punctuation, natural rhythm. Readable and scannable at a glance.
 
 ---
 
 ## Writing Conventions
-
-These rules keep our communications consistent across teams and channels.
 
 **Times:** Write `6pm` not `6:00 PM`.
 
@@ -67,11 +153,14 @@ Used primarily in text form — headings, callouts, section titles. Use sparingl
 Standard body copy color on white backgrounds. Black (`#000000`) is also acceptable for body text.
 
 ### Extended Palette
-These colors appear in the color H mark and branded assets. Use intentionally in campaign contexts — not for everyday communications.
+These colors are used intentionally in campaign, series, and event contexts — not for everyday communications.
 
 - **Orange** `#da5e14` — warmth and visual energy
 - **Olive** `#77843c` — earthy contrast
 - **Cream** `#f2dab2` — warm text on dark backgrounds (e.g. the navy-background wordmark)
+- **Light Green** `#aac27f` — fresh, hopeful accent for seasonal and campaign graphics
+- **Bright Orange** `#f58c29` — high-energy accent for events and calls to action
+- **HFS Sunset Red** `#e74e40` — bold, warm accent for high-impact series graphics
 
 ### Vision Gradient
 A teal (`#56b6b2`) → yellow (`#f4b334`) gradient reserved for high-impact campaign graphics and sermon series artwork. Not for everyday communications.
@@ -96,27 +185,27 @@ Roboto Slab is available free from [Google Fonts](https://fonts.google.com/speci
 
 ## Logo Usage
 
-### The H Mark (Primary)
-The circular "H" monogram is our primary logo mark. Use it on social media profiles, metal signage, merch, app icons, and anywhere a compact, recognizable brand identifier is needed.
+### The H Mark on Teal (Primary)
+The white "H" monogram on a teal background (`hf-logo-mark-primary.svg`) is our primary logo mark. Use it as the default for social media profiles, metal signage, merch, app icons, and anywhere a compact, recognizable brand identifier is needed. This is also the standard avatar for all social platforms and directories.
 
 ### The Wordmark (Secondary)
 The script "Highlands Fellowship" wordmark is our secondary logo. Use it on the homepage, printed materials, and anywhere the full church name provides needed context.
 
-### The Combination Mark
-The H mark + wordmark together, for contexts where maximum brand recognition is needed and space allows.
-
 ### Approved Backgrounds
 Logos may be placed on:
-- White or near-white surfaces (use dark/navy logo)
-- Navy Blue `#0d1d41` (use white/light logo)
-- Teal `#56b6b2` (use white/light logo)
-- Photos with a navy overlay applied (use white/light logo)
+- White or near-white surfaces (use dark/navy H mark)
+- Navy Blue `#0d1d41` (use white/light H mark)
+- Teal `#56b6b2` (use white/light H mark)
+- Photos with a navy overlay applied (use white/light H mark)
+
+The teal-background wordmark (`hf-wordmark-navy-bg.svg`) is self-contained — safe to drop anywhere.
 
 Avoid busy, patterned, or unapproved background colors.
 
 ### Logo Variant Rules
-- **Light (white) logos** → use on navy, teal, or photo backgrounds
-- **Dark (navy) logos** → use on white or light backgrounds
+- **Primary (teal-bg)** → default for all social, digital, and merch uses
+- **Light (white, transparent)** → use on navy or photo overlay backgrounds
+- **Dark (black, transparent)** → use on white or light backgrounds
 
 ### Clearspace
 Maintain clear space equal to the height of the H mark on all sides of any logo.
