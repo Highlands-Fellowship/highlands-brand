@@ -1,6 +1,8 @@
 {
   "version": "2025.01",
   "base_url": "https://branding.hf.church",
+  "cloudinary_base": "https://res.cloudinary.com/hfchurch/image/upload",
+  "cloudinary_folder": "Brand Guide Logos",
   "brand": {
     "name": "Highlands Fellowship",
     "short_name": "HF",
@@ -219,70 +221,80 @@
             "format": "svg",
             "background": "teal",
             "note": "White H mark on teal background — the primary, preferred mark for all contexts including social avatars and profile images",
-            "file": "logos/logo-mark/hf-logo-mark-primary.svg"
+            "file": "logos/logo-mark/hf-logo-mark-primary.svg",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-logo-mark-primary.svg"
           },
           {
             "variant": "light",
             "format": "svg",
             "background": "dark",
             "note": "White H mark on transparent — use on navy, teal, or photo overlay backgrounds",
-            "file": "logos/logo-mark/hf-logo-mark-light.svg"
+            "file": "logos/logo-mark/hf-logo-mark-light.svg",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-logo-mark-light.svg"
           },
           {
             "variant": "dark",
             "format": "svg",
             "background": "light",
             "note": "Black H mark on transparent — use on white or light backgrounds",
-            "file": "logos/logo-mark/hf-logo-mark-dark.svg"
+            "file": "logos/logo-mark/hf-logo-mark-dark.svg",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-logo-mark-dark.svg"
           },
           {
             "variant": "primary",
             "format": "png",
             "background": "teal",
             "size": 256,
-            "file": "logos/logo-mark/hf-logo-mark-primary-256.png"
+            "file": "logos/logo-mark/hf-logo-mark-primary-256.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_256/Brand%20Guide%20Logos/hf-logo-mark-primary.png"
           },
           {
             "variant": "primary",
             "format": "png",
             "background": "teal",
             "size": 512,
-            "file": "logos/logo-mark/hf-logo-mark-primary-512.png"
+            "file": "logos/logo-mark/hf-logo-mark-primary-512.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_512/Brand%20Guide%20Logos/hf-logo-mark-primary.png"
           },
           {
             "variant": "primary",
             "format": "png",
             "background": "teal",
             "size": 1024,
-            "file": "logos/logo-mark/hf-logo-mark-primary-1024.png"
+            "file": "logos/logo-mark/hf-logo-mark-primary-1024.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_1024/Brand%20Guide%20Logos/hf-logo-mark-primary.png"
           },
           {
             "variant": "light",
             "format": "png",
             "background": "transparent",
             "size": 256,
-            "file": "logos/logo-mark/hf-logo-mark-light-256.png"
+            "file": "logos/logo-mark/hf-logo-mark-light-256.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_256/Brand%20Guide%20Logos/hf-logo-mark-light.png"
           },
           {
             "variant": "light",
             "format": "png",
             "background": "transparent",
             "size": 512,
-            "file": "logos/logo-mark/hf-logo-mark-light-512.png"
+            "file": "logos/logo-mark/hf-logo-mark-light-512.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_512/Brand%20Guide%20Logos/hf-logo-mark-light.png"
           },
           {
             "variant": "dark",
             "format": "png",
             "background": "transparent",
             "size": 256,
-            "file": "logos/logo-mark/hf-logo-mark-dark-256.png"
+            "file": "logos/logo-mark/hf-logo-mark-dark-256.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_256/Brand%20Guide%20Logos/hf-logo-mark-dark.png"
           },
           {
             "variant": "dark",
             "format": "png",
             "background": "transparent",
             "size": 512,
-            "file": "logos/logo-mark/hf-logo-mark-dark-512.png"
+            "file": "logos/logo-mark/hf-logo-mark-dark-512.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_512/Brand%20Guide%20Logos/hf-logo-mark-dark.png"
           }
         ]
       },
@@ -295,63 +307,72 @@
             "format": "svg",
             "background": "white or light",
             "note": "Black wordmark — use on white or light backgrounds",
-            "file": "logos/wordmark/hf-wordmark-dark.svg"
+            "file": "logos/wordmark/hf-wordmark-dark.svg",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-wordmark-dark.svg"
           },
           {
             "variant": "light",
             "format": "svg",
             "background": "navy, teal, or photo overlay",
             "note": "White wordmark — use on dark or colored backgrounds",
-            "file": "logos/wordmark/hf-wordmark-light.svg"
+            "file": "logos/wordmark/hf-wordmark-light.svg",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-wordmark-light.svg"
           },
           {
             "variant": "navy-bg",
             "format": "svg",
             "background": "self-contained",
             "note": "Wordmark with navy rectangle background (#0D1D41) and cream text (#F2DAB2). Self-contained — safe to drop anywhere.",
-            "file": "logos/wordmark/hf-wordmark-navy-bg.svg"
+            "file": "logos/wordmark/hf-wordmark-navy-bg.svg",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-wordmark-navy-bg.svg"
           },
           {
             "variant": "dark",
             "format": "png",
             "background": "transparent",
             "size": 256,
-            "file": "logos/wordmark/hf-wordmark-dark-256.png"
+            "file": "logos/wordmark/hf-wordmark-dark-256.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_256/Brand%20Guide%20Logos/hf-wordmark-dark.png"
           },
           {
             "variant": "dark",
             "format": "png",
             "background": "transparent",
             "size": 512,
-            "file": "logos/wordmark/hf-wordmark-dark-512.png"
+            "file": "logos/wordmark/hf-wordmark-dark-512.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_512/Brand%20Guide%20Logos/hf-wordmark-dark.png"
           },
           {
             "variant": "dark",
             "format": "png",
             "background": "transparent",
             "size": 1024,
-            "file": "logos/wordmark/hf-wordmark-dark-1024.png"
+            "file": "logos/wordmark/hf-wordmark-dark-1024.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_1024/Brand%20Guide%20Logos/hf-wordmark-dark.png"
           },
           {
             "variant": "light",
             "format": "png",
             "background": "transparent",
             "size": 256,
-            "file": "logos/wordmark/hf-wordmark-light-256.png"
+            "file": "logos/wordmark/hf-wordmark-light-256.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_256/Brand%20Guide%20Logos/hf-wordmark-light.png"
           },
           {
             "variant": "light",
             "format": "png",
             "background": "transparent",
             "size": 512,
-            "file": "logos/wordmark/hf-wordmark-light-512.png"
+            "file": "logos/wordmark/hf-wordmark-light-512.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_512/Brand%20Guide%20Logos/hf-wordmark-light.png"
           },
           {
             "variant": "light",
             "format": "png",
             "background": "transparent",
             "size": 1024,
-            "file": "logos/wordmark/hf-wordmark-light-1024.png"
+            "file": "logos/wordmark/hf-wordmark-light-1024.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_1024/Brand%20Guide%20Logos/hf-wordmark-light.png"
           }
         ]
       },
@@ -365,25 +386,29 @@
             "format": "svg",
             "background": "teal",
             "note": "White H mark on teal background — preferred for all social media profile photos and directory avatars",
-            "file": "logos/avatar/hf-avatar-teal.svg"
+            "file": "logos/avatar/hf-avatar-teal.svg",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-avatar-teal.svg"
           },
           {
             "variant": "teal-bg",
             "format": "png",
             "size": 256,
-            "file": "logos/avatar/hf-avatar-teal-256.png"
+            "file": "logos/avatar/hf-avatar-teal-256.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_256/Brand%20Guide%20Logos/hf-avatar-teal.png"
           },
           {
             "variant": "teal-bg",
             "format": "png",
             "size": 512,
-            "file": "logos/avatar/hf-avatar-teal-512.png"
+            "file": "logos/avatar/hf-avatar-teal-512.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_512/Brand%20Guide%20Logos/hf-avatar-teal.png"
           },
           {
             "variant": "teal-bg",
             "format": "png",
             "size": 1024,
-            "file": "logos/avatar/hf-avatar-teal-1024.png"
+            "file": "logos/avatar/hf-avatar-teal-1024.png",
+            "url": "https://res.cloudinary.com/hfchurch/image/upload/w_1024/Brand%20Guide%20Logos/hf-avatar-teal.png"
           }
         ]
       }

@@ -97,6 +97,8 @@ This repository is the single source of truth for Highlands Fellowship's brand a
 
 **File paths:** All paths are relative to the repository root and match the physical directory structure.
 
+**Hosted URLs:** All logo assets are hosted on Cloudinary at `https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/`. Each asset entry in `brand-kit.json` includes both a `file` (local path) and a `url` (Cloudinary CDN URL). Use the `url` field for all remote delivery. PNG variants are served via Cloudinary transformations (e.g. `w_256` for 256px wide).
+
 **Logo usage:** Light (white) variants are for use on dark backgrounds (navy, teal, photo overlays). Dark (navy) variants are for use on white or light backgrounds. Prefer SVG for all vector and programmatic use.
 
 ## For Agents
@@ -108,7 +110,7 @@ Key facts for quick reference:
 - **Secondary color:** Teal `#56b6b2`
 - **Accent color:** Yellow `#f4b334` (text/callout use only — sparingly)
 - **Extended palette:** Orange `#da5e14`, Olive `#77843c`, Cream `#f2dab2`, Light Green `#aac27f`, Bright Orange `#f58c29`, HFS Sunset Red `#e74e40` (campaign/series contexts)
-- **Primary logo mark:** White H on teal background (`logos/logo-mark/hf-logo-mark-primary.svg`)
+- **Primary logo mark:** White H on teal background — `https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-logo-mark-primary.svg`
 - **Typeface:** Roboto Slab Medium (Google Fonts)
 - **Tagline:** Know God. Find Community. Make a Difference.
 - **Website:** https://hf.church
