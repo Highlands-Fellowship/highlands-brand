@@ -321,8 +321,8 @@
           {
             "variant": "navy-bg",
             "format": "svg",
-            "background": "self-contained",
-            "note": "Wordmark with navy rectangle background (#0D1D41) and cream text (#F2DAB2). Self-contained — safe to drop anywhere.",
+            "background": "navy",
+            "note": "Cream wordmark on transparent background — use on navy or dark backgrounds. Pair with a navy (#0d1d41) background in your layout.",
             "file": "logos/wordmark/hf-wordmark-navy-bg.svg",
             "url": "https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-wordmark-navy-bg.svg"
           },

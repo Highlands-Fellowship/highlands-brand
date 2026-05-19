@@ -198,7 +198,7 @@ Logos may be placed on:
 - Teal `#56b6b2` (use white/light H mark)
 - Photos with a navy overlay applied (use white/light H mark)
 
-The teal-background wordmark (`hf-wordmark-navy-bg.svg`) is self-contained — safe to drop anywhere.
+The navy-bg wordmark (`hf-wordmark-navy-bg.svg`) is a cream-colored wordmark on a transparent background — pair it with a navy (`#0d1d41`) background in your layout.
 
 Avoid busy, patterned, or unapproved background colors.
 
