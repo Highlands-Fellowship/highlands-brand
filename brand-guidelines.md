@@ -169,17 +169,17 @@ A teal (`#56b6b2`) → yellow (`#f4b334`) gradient reserved for high-impact camp
 
 ## Typography
 
-**Roboto Slab Medium** is the sole authorized typeface for all Highlands Fellowship communications.
+**Inter Medium** is the sole authorized typeface for all Highlands Fellowship communications.
 
 | Use | Size | Weight |
 |---|---|---|
-| Large Heading | 30pt | Roboto Slab Medium |
-| Sub-heading / Body Heading | 18pt | Roboto Slab Medium |
-| Body Copy | 12pt / 16pt leading | Roboto Slab Medium |
+| Large Heading | 30pt | Inter Medium |
+| Sub-heading / Body Heading | 18pt | Inter Medium |
+| Body Copy | 12pt / 16pt leading | Inter Medium |
 
 Body copy color is dark gray (`#3d3d3d`) or black on white backgrounds.
 
-Roboto Slab is available free from [Google Fonts](https://fonts.google.com/specimen/Roboto+Slab).
+Inter is available free from [Google Fonts](https://fonts.google.com/specimen/Inter).
 
 ---
 

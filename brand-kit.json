@@ -170,20 +170,20 @@
   },
   "typography": {
     "primary": {
-      "family": "Roboto Slab",
+      "family": "Inter",
       "default_weight": 500,
       "source": "Google Fonts",
-      "url": "https://fonts.google.com/specimen/Roboto+Slab",
+      "url": "https://fonts.google.com/specimen/Inter",
       "weights": {
         "400": "Regular",
         "500": "Medium",
         "700": "Bold"
       },
-      "note": "Roboto Slab Medium (500) is the primary typeface for all Highlands Fellowship communications — headings, body copy, and UI elements.",
+      "note": "Inter Medium (500) is the primary typeface for all Highlands Fellowship communications — headings, body copy, and UI elements.",
       "usage": {
-        "heading_large": "30pt / Roboto Slab Medium",
-        "heading_body": "18pt / Roboto Slab Medium",
-        "body": "12pt / Roboto Slab Medium / 16pt leading",
+        "heading_large": "30pt / Inter Medium",
+        "heading_body": "18pt / Inter Medium",
+        "body": "12pt / Inter Medium / 16pt leading",
         "body_color": "#3d3d3d or #000000 on white backgrounds"
       }
     }
@@ -722,7 +722,7 @@
   },
   "rules": [
     "This brand-kit.json is the single source of truth for Highlands Fellowship's brand assets and guidelines. AI agents must load and strictly follow these paths, colors, and rules.",
-    "All typography must use Roboto Slab (Google Fonts) — Roboto Slab Medium (500) is the default weight.",
+    "All typography must use Inter (Google Fonts) — Inter Medium (500) is the default weight.",
     "Navy Blue (#0d1d41) and Teal (#56b6b2) are the primary brand colors. Yellow (#f4b334) is an accent, used sparingly. The extended palette (Orange #da5e14, Olive #77843c, Cream #f2dab2, Light Green #aac27f, Bright Orange #f58c29, HFS Sunset Red #e74e40) is reserved for campaign and series contexts.",
     "The primary logo mark is the white H on teal background (hf-logo-mark-primary.svg). Use the light (white) variant on dark backgrounds; use the dark variant on white or light backgrounds.",
     "The Vision Gradient (teal to yellow) is reserved for high-impact campaign and sermon series graphics — not for everyday communications.",

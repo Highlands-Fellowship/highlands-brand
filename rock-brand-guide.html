@@ -1,0 +1,548 @@
+<!-- Highlands Fellowship Brand Guide — Rock HTML Block
+     Drop into an HTML Content block in Rock.
+     Requires Rock's Bootstrap grid + utility classes (built-in).
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+  .hfbg, .hfbg h1, .hfbg h2, .hfbg h3, .hfbg h4 {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Hero */
+  .hfbg-hero { background: #132850; border-radius: 8px; border-bottom: 4px solid #56b6b2; }
+  .hfbg-eyebrow { font-size: 11px; font-weight: 500; color: #56b6b2; letter-spacing: .12em; }
+  .hfbg-hero h1 { font-size: 32px; font-weight: 700; color: #fff; line-height: 1.15; margin-top: 0; }
+  .hfbg-hero h1 span { color: #f4b334; }
+  .hfbg-hero p { color: #a8dedd; }
+
+  /* Section label + title */
+  .hfbg-label { font-size: 11px; font-weight: 700; color: #3d9490; letter-spacing: .12em; }
+  .hfbg-title { color: #0d1d41; font-weight: 700; margin-top: 0; }
+
+  /* Color swatch */
+  .hfbg-swatch-block { height: 72px; }
+  .hfbg-swatch-hex { font-family: 'Courier New', monospace; font-size: 12px; }
+
+  /* Logo preview */
+  .hfbg-logo-preview { height: 130px; }
+  .hfbg-logo-preview.on-light { background: #fff; border-bottom: 1px solid #E3E3E3; }
+  .hfbg-logo-preview.on-teal  { background: #56b6b2; }
+  .hfbg-logo-preview.on-navy  { background: #0d1d41; }
+  .hfbg-logo-path { font-family: 'Courier New', monospace; font-size: 10px; color: #3d9490; }
+
+  /* Dark callout box */
+  .hfbg-dark-box { background: #0d1d41; border-radius: 8px; }
+  .hfbg-dark-label { font-size: 11px; font-weight: 700; color: #56b6b2; letter-spacing: .1em; }
+  .hfbg-dark-item { color: #a8dedd; font-size: 13px; line-height: 1.6; padding-left: 18px; position: relative; }
+  .hfbg-dark-item::before { content: '\2192\00a0'; color: #56b6b2; position: absolute; left: 0; }
+
+  /* Mission/Vision dark card */
+  .hfbg-mv { background: #0d1d41; border-radius: 8px; }
+  .hfbg-mv-label { font-size: 10px; font-weight: 700; color: #56b6b2; letter-spacing: .12em; }
+  .hfbg-mv-text { color: #fff; font-weight: 500; font-size: 15px; line-height: 1.4; margin: 0; }
+
+  /* Voice card left borders */
+  .hfbg-voice-is   { border-left: 3px solid #56b6b2 !important; }
+  .hfbg-voice-is h4 { color: #3d9490; }
+  .hfbg-voice-avoid { border-left: 3px solid #c0392b !important; }
+  .hfbg-voice-avoid h4 { color: #c0392b; }
+  .hfbg-voice-card li { padding-left: 18px; position: relative; margin-bottom: 4px; line-height: 1.45; }
+  .hfbg-voice-is li::before    { content: '\2713'; position: absolute; left: 0; color: #56b6b2; font-size: 12px; }
+  .hfbg-voice-avoid li::before { content: '\2715'; position: absolute; left: 0; color: #c0392b; font-size: 12px; }
+
+  /* Comm formula steps */
+  .hfbg-step-num { background: #56b6b2; color: #fff; width: 22px; height: 22px; border-radius: 50%; font-size: 11px; font-weight: 700; line-height: 22px; text-align: center; flex-shrink: 0; }
+  .hfbg-step-text { color: #a8dedd; font-size: 13px; line-height: 1.5; }
+  .hfbg-step-text strong { color: #fff; }
+
+  /* Rule items */
+  .hfbg-rule { border-left: 3px solid #56b6b2; border-radius: 0 4px 4px 0; }
+
+  /* Typography sample meta */
+  .hfbg-type-meta { font-family: 'Courier New', monospace; font-size: 11px; }
+
+  /* Convention card */
+  .hfbg-conv-do  { font-size: 15px; font-weight: 700; color: #0d1d41; }
+  .hfbg-conv-not { font-size: 13px; text-decoration: line-through; }
+
+  /* Color tone strips */
+  .hfbg-tones { display: flex; gap: 8px; flex-wrap: wrap; }
+  .hfbg-tone { flex: 1; min-width: 90px; height: 44px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-family: 'Courier New', monospace; font-size: 11px; }
+
+  /* Footer */
+  .hfbg-footer { background: #0d1d41; border-radius: 8px; color: #a8dedd; font-size: 13px; letter-spacing: .04em; }
+  .hfbg-footer a { color: #56b6b2; }
+</style>
+
+<div class="hfbg">
+
+  <!-- HERO -->
+  <div class="hfbg-hero p-5 mb-5">
+    <p class="hfbg-eyebrow text-uppercase mb-2">Highlands Fellowship &middot; Abingdon, VA</p>
+    <h1>Brand Kit &amp; <span>Visual Identity</span></h1>
+    <p class="mb-0">The single source of truth for Highlands Fellowship&rsquo;s brand assets, colors, typography, and guidelines. Built for designers, staff, and anyone producing consistently branded work.</p>
+  </div>
+
+  <!-- COLORS -->
+  <div class="mb-5">
+    <p class="hfbg-label text-uppercase mb-1">Brand Colors</p>
+    <h2 class="hfbg-title">Color System</h2>
+    <p class="text-muted mb-4">Navy Blue and Teal are our primary brand colors. Yellow is an accent used in text and callouts &mdash; never a dominant fill. The extended palette is reserved for campaign and series graphics.</p>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#0d1d41;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Navy Blue</div>
+            <div class="hfbg-swatch-hex text-muted">#0d1d41</div>
+            <div class="text-muted" style="font-size:11px;">Primary &mdash; headers, backgrounds, overlays</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#56b6b2;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Teal</div>
+            <div class="hfbg-swatch-hex text-muted">#56b6b2</div>
+            <div class="text-muted" style="font-size:11px;">Secondary &mdash; accents, section headers, icon fills</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#f4b334;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Yellow</div>
+            <div class="hfbg-swatch-hex text-muted">#f4b334</div>
+            <div class="text-muted" style="font-size:11px;">Accent &mdash; text callouts only, used sparingly</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:linear-gradient(135deg,#56b6b2 0%,#f4b334 100%);"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Vision Gradient</div>
+            <div class="hfbg-swatch-hex text-muted">#56b6b2 &rarr; #f4b334</div>
+            <div class="text-muted" style="font-size:11px;">Campaign &amp; sermon series only</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#da5e14;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Orange</div>
+            <div class="hfbg-swatch-hex text-muted">#da5e14</div>
+            <div class="text-muted" style="font-size:11px;">Extended &mdash; campaign graphics</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#77843c;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Olive</div>
+            <div class="hfbg-swatch-hex text-muted">#77843c</div>
+            <div class="text-muted" style="font-size:11px;">Extended &mdash; campaign graphics</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#f2dab2;border-bottom:1px solid #E3E3E3;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Cream</div>
+            <div class="hfbg-swatch-hex text-muted">#f2dab2</div>
+            <div class="text-muted" style="font-size:11px;">Warm text on dark backgrounds</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#aac27f;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Light Green</div>
+            <div class="hfbg-swatch-hex text-muted">#aac27f</div>
+            <div class="text-muted" style="font-size:11px;">Extended &mdash; seasonal &amp; campaign</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#f58c29;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Bright Orange</div>
+            <div class="hfbg-swatch-hex text-muted">#f58c29</div>
+            <div class="text-muted" style="font-size:11px;">Extended &mdash; events &amp; calls to action</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#e74e40;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">HFS Sunset Red</div>
+            <div class="hfbg-swatch-hex text-muted">#e74e40</div>
+            <div class="text-muted" style="font-size:11px;">Extended &mdash; high-impact series graphics</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#3d3d3d;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Dark Gray</div>
+            <div class="hfbg-swatch-hex text-muted">#3d3d3d</div>
+            <div class="text-muted" style="font-size:11px;">Body copy on white backgrounds</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card mb-3">
+          <div class="hfbg-swatch-block" style="background:#FFFFFF;border-bottom:1px solid #E3E3E3;"></div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">White</div>
+            <div class="hfbg-swatch-hex text-muted">#FFFFFF</div>
+            <div class="text-muted" style="font-size:11px;">Backgrounds, reversed logo text</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-2">
+      <p class="hfbg-label text-uppercase small mb-2">Navy Tones</p>
+      <div class="hfbg-tones mb-3">
+        <div class="hfbg-tone" style="background:#091629;color:#fff;">#091629</div>
+        <div class="hfbg-tone" style="background:#0d1d41;color:#fff;">#0d1d41</div>
+        <div class="hfbg-tone" style="background:#132850;color:#fff;">#132850</div>
+        <div class="hfbg-tone" style="background:#1e3d78;color:#fff;">#1e3d78</div>
+      </div>
+      <p class="hfbg-label text-uppercase small mb-2">Teal Tones</p>
+      <div class="hfbg-tones">
+        <div class="hfbg-tone" style="background:#3d9490;color:#fff;">#3d9490</div>
+        <div class="hfbg-tone" style="background:#56b6b2;color:#fff;">#56b6b2</div>
+        <div class="hfbg-tone" style="background:#6dc5c1;color:#fff;">#6dc5c1</div>
+        <div class="hfbg-tone" style="background:#a8dedd;color:#0d1d41;">#a8dedd</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOGOS -->
+  <div class="mb-5">
+    <p class="hfbg-label text-uppercase mb-1">Logos</p>
+    <h2 class="hfbg-title">Logo Lockups</h2>
+    <p class="text-muted mb-4">The circular H mark is our primary logo for compact contexts. The wordmark is secondary. Always match the logo variant to the background it&rsquo;s placed on.</p>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-3">
+          <div class="hfbg-logo-preview on-light d-flex align-items-center justify-content-center">
+            <img src="https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-logo-mark-primary.svg" alt="H Mark Primary" style="height:80px;width:80px;border-radius:10px;" />
+          </div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">H Mark &mdash; Primary &#9733;</div>
+            <div class="text-muted" style="font-size:11px;">White H on teal &mdash; default for all social, digital &amp; merch</div>
+            <div class="hfbg-logo-path mt-1">hf-logo-mark-primary.svg</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-3">
+          <div class="hfbg-logo-preview on-teal d-flex align-items-center justify-content-center">
+            <img src="https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-logo-mark-light.svg" alt="H Mark Light" style="max-height:80px;max-width:100%;" />
+          </div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">H Mark &mdash; Light</div>
+            <div class="text-muted" style="font-size:11px;">White mark (transparent) &mdash; on navy or photo overlay</div>
+            <div class="hfbg-logo-path mt-1">hf-logo-mark-light.svg</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-3">
+          <div class="hfbg-logo-preview on-light d-flex align-items-center justify-content-center">
+            <img src="https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-logo-mark-dark.svg" alt="H Mark Dark" style="max-height:80px;max-width:100%;" />
+          </div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">H Mark &mdash; Dark</div>
+            <div class="text-muted" style="font-size:11px;">Black mark (transparent) &mdash; on white or light backgrounds</div>
+            <div class="hfbg-logo-path mt-1">hf-logo-mark-dark.svg</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-3">
+          <div class="hfbg-logo-preview on-light d-flex align-items-center justify-content-center">
+            <img src="https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-wordmark-dark.svg" alt="Wordmark Dark" style="max-height:60px;max-width:90%;" />
+          </div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Wordmark &mdash; Dark</div>
+            <div class="text-muted" style="font-size:11px;">On white or light backgrounds</div>
+            <div class="hfbg-logo-path mt-1">hf-wordmark-dark.svg</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-3">
+          <div class="hfbg-logo-preview on-navy d-flex align-items-center justify-content-center">
+            <img src="https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-wordmark-light.svg" alt="Wordmark Light" style="max-height:60px;max-width:90%;" />
+          </div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Wordmark &mdash; Light</div>
+            <div class="text-muted" style="font-size:11px;">On navy, teal, or photo overlays</div>
+            <div class="hfbg-logo-path mt-1">hf-wordmark-light.svg</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-3">
+          <div class="hfbg-logo-preview on-light d-flex align-items-center justify-content-center">
+            <img src="https://res.cloudinary.com/hfchurch/image/upload/Brand%20Guide%20Logos/hf-avatar-teal.svg" alt="Avatar Teal" style="height:70px;width:70px;border-radius:10px;" />
+          </div>
+          <div class="card-body p-2">
+            <div class="font-weight-bold small">Avatar &mdash; Teal &#9733;</div>
+            <div class="text-muted" style="font-size:11px;">Standard social media &amp; directory avatar</div>
+            <div class="hfbg-logo-path mt-1">hf-avatar-teal.svg</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hfbg-dark-box p-3 mt-2">
+      <p class="hfbg-dark-label text-uppercase mb-3">Logo Rules</p>
+      <p class="hfbg-dark-item mb-2">The primary mark is the white H on teal background &mdash; default for all social profiles, signage, merch, and app icons.</p>
+      <p class="hfbg-dark-item mb-2">Use the light (white, transparent) H mark on navy or photo overlay backgrounds. Use the dark H mark on white or light backgrounds.</p>
+      <p class="hfbg-dark-item mb-2">Approved backgrounds: white, Navy <code style="background:#1e3d78;color:#a8dedd;padding:1px 4px;border-radius:3px;font-size:11px;">#0d1d41</code>, Teal <code style="background:#1e3d78;color:#a8dedd;padding:1px 4px;border-radius:3px;font-size:11px;">#56b6b2</code>, and photo overlays.</p>
+      <p class="hfbg-dark-item mb-0">Do not stretch, recolor, add effects, or distort any logo.</p>
+    </div>
+  </div>
+
+  <!-- TYPOGRAPHY -->
+  <div class="mb-5">
+    <p class="hfbg-label text-uppercase mb-1">Typography</p>
+    <h2 class="hfbg-title">Inter</h2>
+    <p class="text-muted mb-4">Inter Medium is the sole authorized typeface for all Highlands Fellowship communications &mdash; headings, body copy, and UI elements.</p>
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <p class="hfbg-label text-uppercase small mb-2">Large Heading &mdash; 30pt / Inter Medium</p>
+        <div style="font-size:30pt;font-weight:500;color:#f4b334;line-height:1.15;">Hi there!</div>
+        <p class="hfbg-type-meta text-muted mt-2 mb-0">Inter &middot; weight: 500 &middot; size: 30pt &middot; color: #f4b334</p>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <p class="hfbg-label text-uppercase small mb-2">Sub-Heading &mdash; 18pt / Inter Medium</p>
+        <div style="font-size:18pt;font-weight:500;color:#0d1d41;line-height:1.3;">Know God. Find Community. Make a Difference.</div>
+        <p class="hfbg-type-meta text-muted mt-2 mb-0">Inter &middot; weight: 500 &middot; size: 18pt &middot; color: #0d1d41</p>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <p class="hfbg-label text-uppercase small mb-2">Body Copy &mdash; 12pt / 16pt leading / Inter Medium</p>
+        <div style="font-size:12pt;font-weight:500;color:#3d3d3d;line-height:1.75;">This body copy uses Inter Medium at 12pt with 16pt leading. For paragraphs, we typically use either dark gray or black on white backgrounds. We&rsquo;re glad you&rsquo;re here &mdash; and we mean it.</div>
+        <p class="hfbg-type-meta text-muted mt-2 mb-0">Inter &middot; weight: 500 &middot; size: 12pt &middot; line-height: 16pt &middot; color: #3d3d3d</p>
+      </div>
+    </div>
+
+    <div class="well well-sm mt-3">
+      <strong class="hfbg-label text-uppercase small">Available from Google Fonts</strong><br />
+      <a href="https://fonts.google.com/specimen/Inter" target="_blank" style="color:#3d9490;font-weight:500;">fonts.google.com/specimen/Inter &rarr;</a>
+    </div>
+  </div>
+
+  <!-- VOICE & TONE -->
+  <div class="mb-5">
+    <p class="hfbg-label text-uppercase mb-1">Voice &amp; Tone</p>
+    <h2 class="hfbg-title">How We Sound</h2>
+    <p class="text-muted mb-4">We speak like real people talking to real people. Warm, practical, and grounded &mdash; not polished for performance. Church should feel like home.</p>
+
+    <div class="row mb-3">
+      <div class="col-sm-6">
+        <div class="hfbg-mv p-3 mb-3">
+          <p class="hfbg-mv-label text-uppercase mb-1">Mission</p>
+          <p class="hfbg-mv-text">To Help People Experience Life with Jesus</p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="hfbg-mv p-3 mb-3">
+          <p class="hfbg-mv-label text-uppercase mb-1">Vision</p>
+          <p class="hfbg-mv-text">Make Disciples. Love Our Communities. Change the World.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-sm-6">
+        <div class="card hfbg-voice-is hfbg-voice-card mb-3">
+          <div class="card-body">
+            <h4 class="font-weight-bold text-uppercase small mt-0 mb-3">The Voice Is</h4>
+            <ul class="list-unstyled mb-0">
+              <li>Conversational, not preachy</li>
+              <li>Encouraging, not condemning</li>
+              <li>Practical, not overly theological</li>
+              <li>Invitational, not pressure-driven</li>
+              <li>Authentic, not polished</li>
+              <li>Emotionally warm, not trendy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card hfbg-voice-avoid hfbg-voice-card mb-3">
+          <div class="card-body">
+            <h4 class="font-weight-bold text-uppercase small mt-0 mb-3">We Avoid</h4>
+            <ul class="list-unstyled mb-0">
+              <li>Churchy language &amp; theological jargon</li>
+              <li>Corporate buzzwords</li>
+              <li>Hype-driven or guilt-driven language</li>
+              <li>Harsh or condemning tones</li>
+              <li>Performative or production-focused messaging</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="hfbg-label text-uppercase small mb-3">Core Messaging Themes</p>
+    <div class="row mb-4">
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">&#127968; Home</p>
+          <p class="text-muted mb-0" style="font-size:12px;">Welcome Home &middot; Come as you are &middot; There&rsquo;s a place for you here &middot; We saved you a seat</p>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">&#129309; Community</p>
+          <p class="text-muted mb-0" style="font-size:12px;">Doing life together &middot; Find your people &middot; Life is better connected &middot; Don&rsquo;t do life alone</p>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">&#129408; Journey</p>
+          <p class="text-muted mb-0" style="font-size:12px;">Take your next step &middot; The Path &middot; Stay rooted &middot; Grow deeper &middot; Take root. Grow daily.</p>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">Life With Jesus</p>
+          <p class="text-muted mb-0" style="font-size:12px;">Experience life with Jesus &middot; Jesus changes everything &middot; God is still moving</p>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">Care + Healing</p>
+          <p class="text-muted mb-0" style="font-size:12px;">You don&rsquo;t have to walk through this alone &middot; Healing is possible &middot; Safe place</p>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">&#127758; Generosity</p>
+          <p class="text-muted mb-0" style="font-size:12px;">Your generosity changes lives &middot; Invest in what God is doing &middot; Never guilt-driven</p>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">Difference Makers</p>
+          <p class="text-muted mb-0" style="font-size:12px;">You were made for more &middot; Find your fit &middot; Every role matters &middot; Make a difference</p>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="font-weight-bold small mb-1">Next Gen</p>
+          <p class="text-muted mb-0" style="font-size:12px;">HFKidz: Connecting Kids to Christ &middot; Students today. Leaders tomorrow.</p>
+        </div></div>
+      </div>
+    </div>
+
+    <div class="hfbg-dark-box p-3 mb-4">
+      <p class="hfbg-dark-label text-uppercase mb-3">Communication Formula</p>
+      <div class="d-flex align-items-start mb-2">
+        <div class="hfbg-step-num mr-3">1</div>
+        <div class="hfbg-step-text"><strong>Warm Welcome</strong> &mdash; &ldquo;Hi there!&rdquo; / &ldquo;Welcome Home.&rdquo;</div>
+      </div>
+      <div class="d-flex align-items-start mb-2">
+        <div class="hfbg-step-num mr-3">2</div>
+        <div class="hfbg-step-text"><strong>Real-Life Connection</strong> &mdash; Acknowledge struggles, questions, family, purpose, and growth.</div>
+      </div>
+      <div class="d-flex align-items-start mb-2">
+        <div class="hfbg-step-num mr-3">3</div>
+        <div class="hfbg-step-text"><strong>Jesus-Centered Hope</strong> &mdash; Everything points back to Jesus and transformation through Him.</div>
+      </div>
+      <div class="d-flex align-items-start mb-2">
+        <div class="hfbg-step-num mr-3">4</div>
+        <div class="hfbg-step-text"><strong>Invitation Into Community</strong> &mdash; Groups, serving, prayer, outreach, care, next steps.</div>
+      </div>
+      <div class="d-flex align-items-start">
+        <div class="hfbg-step-num mr-3">5</div>
+        <div class="hfbg-step-text"><strong>Practical Movement Forward</strong> &mdash; Take your next step. Get connected. Serve others. Grow deeper. Make a difference.</div>
+      </div>
+    </div>
+
+    <p class="hfbg-label text-uppercase small mb-3">Writing Conventions</p>
+    <div class="row">
+      <div class="col-xs-6 col-sm-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="hfbg-label text-uppercase mb-1" style="font-size:10px;">Times</p>
+          <div class="hfbg-conv-do">6pm</div>
+          <div class="hfbg-conv-not text-muted">6:00 PM</div>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="hfbg-label text-uppercase mb-1" style="font-size:10px;">Dates</p>
+          <div class="hfbg-conv-do">Thursday, Dec. 25</div>
+          <div class="hfbg-conv-not text-muted">December 25th</div>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="hfbg-label text-uppercase mb-1" style="font-size:10px;">Symbols</p>
+          <div class="hfbg-conv-do">Community + Purpose</div>
+          <div class="hfbg-conv-not text-muted">Community and Purpose</div>
+        </div></div>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <div class="card mb-3"><div class="card-body p-2">
+          <p class="hfbg-label text-uppercase mb-1" style="font-size:10px;">Oxford Comma</p>
+          <div class="hfbg-conv-do">Optional</div>
+          <div class="hfbg-conv-not text-muted">Stay consistent</div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BRAND RULES -->
+  <div class="mb-5">
+    <p class="hfbg-label text-uppercase mb-1">Quick Reference</p>
+    <h2 class="hfbg-title">Brand Rules</h2>
+    <p class="text-muted mb-4">Governing directives for anyone producing branded content for Highlands Fellowship.</p>
+
+    <div class="card hfbg-rule mb-2"><div class="card-body py-2 px-3">All typography must use <strong>Inter</strong> (Google Fonts) &mdash; Inter Medium (<code>weight 500</code>) is the default weight.</div></div>
+    <div class="card hfbg-rule mb-2"><div class="card-body py-2 px-3"><strong>Navy Blue (<code>#0d1d41</code>)</strong> and <strong>Teal (<code>#56b6b2</code>)</strong> are the primary brand colors. Yellow (<code>#f4b334</code>) is an accent &mdash; used sparingly, primarily in text.</div></div>
+    <div class="card hfbg-rule mb-2"><div class="card-body py-2 px-3">Always use the white/light logo on dark or colored backgrounds. Always use the dark/navy logo on white or light backgrounds.</div></div>
+    <div class="card hfbg-rule mb-2"><div class="card-body py-2 px-3">The Vision Gradient (teal &rarr; yellow) is reserved for campaign and sermon series graphics &mdash; not everyday communications.</div></div>
+    <div class="card hfbg-rule mb-2"><div class="card-body py-2 px-3">Time formatting: <code>6pm</code> not <code>6:00 PM</code>. Date formatting: <code>Thursday, Dec. 25</code> not <code>Thursday, December 25th</code>.</div></div>
+    <div class="card hfbg-rule mb-2"><div class="card-body py-2 px-3">Voice check: does this feel warm, practical, and welcoming? Mission: <em>To Help People Experience Life with Jesus.</em> Vision: <em>Make Disciples. Love Our Communities. Change the World.</em></div></div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="hfbg-footer p-4 text-center">
+    <p class="mb-1">Highlands Fellowship &middot; Abingdon, VA &middot; <a href="https://hf.church">hf.church</a></p>
+    <p class="mb-0" style="font-size:11px;opacity:.6;">Brand Kit &middot; Single Source of Truth &middot; <a href="https://branding.hf.church">branding.hf.church</a></p>
+  </div>
+
+</div>
